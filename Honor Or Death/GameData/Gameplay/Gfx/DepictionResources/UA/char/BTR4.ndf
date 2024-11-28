@@ -1,0 +1,14 @@
+export Modele_BTR_4_UA is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
+)
+
+export Modele_BTR_4_UA_MID is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
+)
+
+export Modele_BTR_4_UA_LOW is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
+)
