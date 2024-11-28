@@ -1,4 +1,4 @@
-Ammo_RocketArt_M26_227mmss is TAmmunitionDescriptor
+Ammo_RocketArt_M26_227mms is TAmmunitionDescriptor
 (
     DescriptorId = GUID:{e56634e9-a0e0-zca2-b1d2-416a7f80e22f}
     Name = 'FWHFPHNWKS'
