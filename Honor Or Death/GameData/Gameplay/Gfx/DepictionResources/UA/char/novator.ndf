@@ -1,0 +1,14 @@
+export Modele_NOVATOR_STUGNA_UKR is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
+)
+
+export Modele_NOVATOR_STUGNA_UKR_MID is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
+)
+
+export Modele_NOVATOR_STUGNA_UKR_LOW is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
+)

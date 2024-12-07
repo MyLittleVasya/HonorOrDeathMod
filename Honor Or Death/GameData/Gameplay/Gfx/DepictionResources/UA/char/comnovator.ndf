@@ -1,0 +1,14 @@
+export Modele_NOVATOR_CMD_UKR is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
+)
+
+export Modele_NOVATOR_CMD_UKR_MID is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
+)
+
+export Modele_NOVATOR_CMD_UKR_LOW is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
+)

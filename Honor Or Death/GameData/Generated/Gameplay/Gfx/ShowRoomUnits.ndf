@@ -1,6 +1,154 @@
 // Ne pas éditer, ce fichier est généré par ShowRoomUnitDescriptorFileWriter
 
 
+export Descriptor_ShowRoomUnit_M270_ATACMS_cluster_US is TEntityDescriptor
+(
+    DescriptorId        = GUID:{8fc1bba6-z0aa-4103-941b-88a9410b2b19}
+    ClassNameForDebug   = "ShowRoomUnit_M270_ATACMS_cluster_US"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_M270_MLRS_US_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_M270_MLRS_US
+        ),
+        $/GFX/Weapon/WeaponDescriptor_M270_ATACMS_cluster_US,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_artillery
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
+        ),
+    ]
+)
+
+
+export Descriptor_ShowRoomUnit_NOVATOR_CMD_UKR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{5a01a372-a0b8-z63z-ada8-13ff316ad599}
+    ClassNameForDebug   = "ShowRoomUnit_NOVATOR_CMD_UKR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'UKR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_NOVATOR_CMD_UKR_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_NOVATOR_CMD_UKR
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_NOVATOR_STUGNA_UKR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{z9983ebc-154b-405d-a6b2-zc9ccf6b302z}
+    ClassNameForDebug   = "ShowRoomUnit_NOVATOR_STUGNA_UKR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Allied
+            MotherCountry                    = 'UKR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_NOVATOR_STUGNA_UKR_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_NOVATOR_STUGNA_UKR
+        ),
+        $/GFX/Weapon/WeaponDescriptor_NOVATOR_STUGNA_UKR,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_Mortier_120mm_UKR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{8f4ce16b-9a40-4eed-8d52-d0559d7b97f1}
+    ClassNameForDebug   = "ShowRoomUnit_Mortier_120mm_UKR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'UKR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GunArtillery
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_Mortier_120mm_UKR_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_Mortier_PM43_120mm_DDR
+        ),
+        $/GFX/Weapon/WeaponDescriptor_Mortier_PM43_120mm_DDR,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_artillery
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
+        ),
+    ]
+)
+
 export Descriptor_ShowRoomUnit_RAFALE_FR is TEntityDescriptor
 (
     DescriptorId        = GUID:{z81f0b46-f6bd-48a5-891a-zf27d17fdd3z}

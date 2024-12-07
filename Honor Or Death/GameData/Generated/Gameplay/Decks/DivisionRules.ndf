@@ -33,6 +33,14 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mortier_120mm_UKR
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_MTLB_transp_SOV]
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.6, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_BM21_Grad_SOV
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
@@ -47,15 +55,15 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
-                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_BTR_60_CMD_SOV
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_NOVATOR_CMD_UKR
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 2
-                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.4, 0.0]
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
                     TDeckUniteRule
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Grunts_UKR
-                        AvailableWithoutTransport = True
+                        AvailableWithoutTransport = False
                         AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_VARTA_UKR, $/GFX/Unit/Descriptor_Unit_BMP_1P_SOV]
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [1.0, 0.6, 0.34, 0.0]
@@ -116,6 +124,14 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [1.0, 0.6, 0.34, 0.0]
                     ),
+                    
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_NOVATOR_STUGNA_UKR
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]
+                    ),
                     TDeckUniteRule
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_FOB_SOV
@@ -136,20 +152,6 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
-                    ),
-                    TDeckUniteRule
-                    (
-                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_F35A_US
-                        AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 1
-                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
-                    ),
-                    TDeckUniteRule
-                    (
-                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_RAFALE_FR
-                        AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 2
-                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.6, 0.0]
                     ),
                     TDeckUniteRule
                     (
@@ -178,13 +180,6 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 1
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
-                    ),
-                    TDeckUniteRule
-                    (
-                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_8K_CMD_SOV
-                        AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 2
-                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
                     TDeckUniteRule
                     (
@@ -230,6 +225,13 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Su_25_rkt_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Su_27S_SOV
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
@@ -272,6 +274,13 @@ private DivisionRules is TDeckDivisionRules
             (
                 UnitRuleList =
                 [
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_RAFALE_FR
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.6, 0.0]
+                    ),
                     TDeckUniteRule
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_AML_60_FR
@@ -19044,7 +19053,7 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
-                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_M270_MLRS_US
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_M270_ATACMS_cluster_US
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 1
                         NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
@@ -22127,6 +22136,13 @@ private DivisionRules is TDeckDivisionRules
             (
                 UnitRuleList =
                 [
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_F35A_US
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
                     TDeckUniteRule
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_A10_Thunderbolt_II_ATGM_US

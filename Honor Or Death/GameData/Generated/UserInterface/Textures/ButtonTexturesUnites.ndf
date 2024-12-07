@@ -7,6 +7,8 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
     Textures = MAP
     [
         ("Texture_Button_Unit_RAFALE_FR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/rafale.png"))]),
+        ("Texture_Button_Unit_NOVATOR_CMD_UKR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/comnovator.png"))]),
+        ("Texture_Button_Unit_NOVATOR_STUGNA_UKR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/novator.png"))]),
         ("Texture_Button_Unit_F35A_US", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/f35a.png"))]),
         ("Texture_Button_Unit_SHARK_UAV_UKR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/shark.png"))]),
         ("Texture_Button_Unit_SBA_VARTA", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/varta.png"))]),

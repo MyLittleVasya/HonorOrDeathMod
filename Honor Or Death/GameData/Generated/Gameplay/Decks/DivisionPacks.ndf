@@ -5238,3 +5238,19 @@ Descriptor_Deck_Pack_RAFALE_FR is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_RAFALE_FR
 )
+Descriptor_Deck_Pack_Mortier_120mm_UKR is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Mortier_120mm_UKR
+)
+Descriptor_Deck_Pack_NOVATOR_STUGNA_UKR is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_NOVATOR_STUGNA_UKR
+)
+Descriptor_Deck_Pack_NOVATOR_CMD_UKR is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_NOVATOR_CMD_UKR
+)
+Descriptor_Deck_Pack_M270_ATACMS_cluster_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_M270_ATACMS_cluster_US
+)

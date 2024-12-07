@@ -14426,7 +14426,7 @@ Ammo_Javelin is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2300
+    PorteeMaximaleHAGRU = 1900.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -14454,7 +14454,7 @@ Ammo_Javelin is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 55),
+            (EBaseHitValueModifier/Idling, 60.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -14505,7 +14505,7 @@ Ammo_Javelin_LML is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2300
+    PorteeMaximaleHAGRU = 1900.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -14533,7 +14533,7 @@ Ammo_Javelin_LML is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -14827,7 +14827,7 @@ Ammo_MANPAD_Blowpipe is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 1775
+    PorteeMaximaleHAGRU = 1375.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -14855,7 +14855,7 @@ Ammo_MANPAD_Blowpipe is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 30),
+            (EBaseHitValueModifier/Idling, 35.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -14906,7 +14906,7 @@ Ammo_MANPAD_FIM43 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 1775
+    PorteeMaximaleHAGRU = 1375.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -14935,7 +14935,7 @@ Ammo_MANPAD_FIM43 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 35),
+            (EBaseHitValueModifier/Idling, 40.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -14986,7 +14986,7 @@ Ammo_MANPAD_FIM92 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2300
+    PorteeMaximaleHAGRU = 1900.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -15015,7 +15015,7 @@ Ammo_MANPAD_FIM92 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 55),
+            (EBaseHitValueModifier/Idling, 60.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -15066,7 +15066,7 @@ Ammo_MANPAD_FIM92_A is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2300
+    PorteeMaximaleHAGRU = 1900.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -15095,7 +15095,7 @@ Ammo_MANPAD_FIM92_A is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 45),
+            (EBaseHitValueModifier/Idling, 50.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -15146,7 +15146,7 @@ Ammo_MANPAD_Javelin is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2300
+    PorteeMaximaleHAGRU = 1900.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -15174,7 +15174,7 @@ Ammo_MANPAD_Javelin is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 55),
+            (EBaseHitValueModifier/Idling, 60.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -15225,7 +15225,7 @@ Ammo_MANPAD_Strela2M is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2125
+    PorteeMaximaleHAGRU = 1725.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -15254,7 +15254,7 @@ Ammo_MANPAD_Strela2M is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 35),
+            (EBaseHitValueModifier/Idling, 40.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -15305,7 +15305,7 @@ Ammo_MANPAD_Strela3 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2125
+    PorteeMaximaleHAGRU = 1725.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -15334,7 +15334,7 @@ Ammo_MANPAD_Strela3 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 40),
+            (EBaseHitValueModifier/Idling, 45.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -15385,7 +15385,7 @@ Ammo_MANPAD_igla is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2300
+    PorteeMaximaleHAGRU = 1900.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -15414,7 +15414,7 @@ Ammo_MANPAD_igla is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 55.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -15465,7 +15465,7 @@ Ammo_Mistral is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2825
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -15494,7 +15494,7 @@ Ammo_Mistral is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -15545,7 +15545,7 @@ Ammo_Mistral_Celtic_x4 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2825
-    PorteeMaximaleHAGRU = 2650
+    PorteeMaximaleHAGRU = 2250.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -15574,7 +15574,7 @@ Ammo_Mistral_Celtic_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 60),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -16339,7 +16339,7 @@ Ammo_SAM_FASTA_Strela2M_x4 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2125
+    PorteeMaximaleHAGRU = 1725.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -16368,7 +16368,7 @@ Ammo_SAM_FASTA_Strela2M_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 40),
+            (EBaseHitValueModifier/Idling, 45.0),
             (EBaseHitValueModifier/Moving, 40),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -16419,7 +16419,7 @@ Ammo_SAM_FASTA_Strela2M_x4_TOWED is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2125
+    PorteeMaximaleHAGRU = 1725.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -16448,7 +16448,7 @@ Ammo_SAM_FASTA_Strela2M_x4_TOWED is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 35),
+            (EBaseHitValueModifier/Idling, 40.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -16499,7 +16499,7 @@ Ammo_SAM_FIM92_Stinger_CS is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -16528,7 +16528,7 @@ Ammo_SAM_FIM92_Stinger_CS is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 55.0),
             (EBaseHitValueModifier/Moving, 50),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -16578,7 +16578,7 @@ Ammo_SAM_FIM92_Stinger_CS_x4 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -16607,7 +16607,7 @@ Ammo_SAM_FIM92_Stinger_CS_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 60),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -16657,7 +16657,7 @@ Ammo_SAM_FIM92_Stinger_x4 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -16686,7 +16686,7 @@ Ammo_SAM_FIM92_Stinger_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 60),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -16736,7 +16736,7 @@ Ammo_SAM_FIM92_Stinger_x8 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -16765,7 +16765,7 @@ Ammo_SAM_FIM92_Stinger_x8 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 60),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -16815,7 +16815,7 @@ Ammo_SAM_FIM92C is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 4.0
     TempsEntreDeuxFx = 4.0
     PorteeMaximaleTBAGRU = 2300
-    PorteeMaximaleHAGRU = 2300
+    PorteeMaximaleHAGRU = 1900.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -16844,7 +16844,7 @@ Ammo_SAM_FIM92C is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 55.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -17053,7 +17053,7 @@ Ammo_SAM_Igla is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.0
     TempsEntreDeuxFx = 3.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2300
+    PorteeMaximaleHAGRU = 1900.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -17082,7 +17082,7 @@ Ammo_SAM_Igla is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 55.0),
             (EBaseHitValueModifier/Moving, 40),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -17133,7 +17133,7 @@ Ammo_SAM_IglaN is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 4.0
     TempsEntreDeuxFx = 4.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -17162,7 +17162,7 @@ Ammo_SAM_IglaN is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 55),
+            (EBaseHitValueModifier/Idling, 60.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -17213,7 +17213,7 @@ Ammo_SAM_IglaN_1M is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 4.0
     TempsEntreDeuxFx = 4.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -17242,7 +17242,7 @@ Ammo_SAM_IglaN_1M is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 55),
+            (EBaseHitValueModifier/Idling, 60.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -17293,7 +17293,7 @@ Ammo_SAM_IglaV is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2650
+    PorteeMaximaleHAGRU = 2250.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -17322,7 +17322,7 @@ Ammo_SAM_IglaV is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 60),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -17372,7 +17372,7 @@ Ammo_SAM_IglaV_x4 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2650
+    PorteeMaximaleHAGRU = 2250.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -17401,7 +17401,7 @@ Ammo_SAM_IglaV_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 60),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -17691,7 +17691,7 @@ Ammo_SAM_Mistral is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 4.0
     TempsEntreDeuxFx = 4.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -17720,7 +17720,7 @@ Ammo_SAM_Mistral is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -18806,7 +18806,7 @@ Ammo_SAM_Strela1_x4 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 4.0
     TempsEntreDeuxFx = 4.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2475
+    PorteeMaximaleHAGRU = 2075.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -18835,7 +18835,7 @@ Ammo_SAM_Strela1_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 55.0),
             (EBaseHitValueModifier/Moving, 40),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -19046,7 +19046,7 @@ Ammo_SAM_Strela2_x12 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2650
+    PorteeMaximaleHAGRU = 2250.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -19075,7 +19075,7 @@ Ammo_SAM_Strela2_x12 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 60),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -19125,7 +19125,7 @@ Ammo_SAM_Strela2_x2 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2650
+    PorteeMaximaleHAGRU = 2250.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -19154,7 +19154,7 @@ Ammo_SAM_Strela2_x2 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -19204,7 +19204,7 @@ Ammo_SAM_Strela2_x4 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2650
-    PorteeMaximaleHAGRU = 2650
+    PorteeMaximaleHAGRU = 2250.0
     AngleDispersion = 0.020001473227855015
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -19233,7 +19233,7 @@ Ammo_SAM_Strela2_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Idling, 65.0),
             (EBaseHitValueModifier/Moving, 60),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
@@ -19283,7 +19283,7 @@ Ammo_SAM_Strela2M_x2 is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
     PorteeMaximaleTBAGRU = 2475
-    PorteeMaximaleHAGRU = 2125
+    PorteeMaximaleHAGRU = 1725.0
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -19312,7 +19312,7 @@ Ammo_SAM_Strela2M_x2 is TAmmunitionDescriptor
         BaseHitValueModifiers = 
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 35),
+            (EBaseHitValueModifier/Idling, 40.0),
             (EBaseHitValueModifier/Moving, 35),
             (EBaseHitValueModifier/Targeted, 0.0)
         ]

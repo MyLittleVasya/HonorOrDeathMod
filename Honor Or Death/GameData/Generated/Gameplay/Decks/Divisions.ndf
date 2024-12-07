@@ -16,11 +16,13 @@ Descriptor_Deck_Division_UKR_3otb_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_2S1_Gvozdika_SOV, 2),
         (~/Descriptor_Deck_Pack_2S3M_Akatsiya_SOV, 2),
         (~/Descriptor_Deck_Pack_BM21_Grad_SOV, 1),
+        (~/Descriptor_Deck_Pack_Mortier_120mm_UKR, 2),
         
         
         (~/Descriptor_Deck_Pack_GUR_UKR, 1),
         (~/Descriptor_Deck_Pack_ARM_RECO_UKR, 2),
         (~/Descriptor_Deck_Pack_SHARK_UAV_UKR, 1),
+        (~/Descriptor_Deck_Pack_NOVATOR_STUGNA_UKR, 1),
         
         
         (~/Descriptor_Deck_Pack_Grunts_UKR, 3),
@@ -39,7 +41,6 @@ Descriptor_Deck_Division_UKR_3otb_multi is TDeckDivisionDescriptor
         
         (~/Descriptor_Deck_Pack_Mi_24K_reco_SOV, 2),
         (~/Descriptor_Deck_Pack_Mi_24V_RKT_SOV, 3),
-        (~/Descriptor_Deck_Pack_Mi_8K_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_Mi_8TV_s80_SOV, 2),
 
         (~/Descriptor_Deck_Pack_Su_24M_SOV, 1),
@@ -47,8 +48,9 @@ Descriptor_Deck_Division_UKR_3otb_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Su_24M_SS_UKR, 2),
         (~/Descriptor_Deck_Pack_Su_27S_SEAD_UKR, 1),
         (~/Descriptor_Deck_Pack_Su_27S_JDAM_UKR, 2),
-        (~/Descriptor_Deck_Pack_F35A_US, 2),
-        (~/Descriptor_Deck_Pack_RAFALE_FR, 1),
+        (~/Descriptor_Deck_Pack_Su_25_rkt_SOV, 1),
+        
+        
         
 
         (~/Descriptor_Deck_Pack_BM_OPLOT_UA, 4),
@@ -58,7 +60,7 @@ Descriptor_Deck_Division_UKR_3otb_multi is TDeckDivisionDescriptor
 
         (~/Descriptor_Deck_Pack_FOB_SOV, 1),
         (~/Descriptor_Deck_Pack_BMP_1_CMD_SOV, 3),
-        (~/Descriptor_Deck_Pack_BTR_60_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_NOVATOR_CMD_UKR, 1),
         (~/Descriptor_Deck_Pack_MTLB_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_KrAZ_255B_supply_SOV, 2),
         (~/Descriptor_Deck_Pack_MTLB_supply_SOV, 2),
@@ -82,6 +84,7 @@ Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'PPYRYDDJRK'
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_RAFALE_FR, 1),
         (~/Descriptor_Deck_Pack_AML_60_FR, 2),
         (~/Descriptor_Deck_Pack_AML_90_FR, 2),
         (~/Descriptor_Deck_Pack_ATteam_Milan_1_para_FR, 1),
@@ -2042,7 +2045,7 @@ Descriptor_Deck_Division_US_24th_Inf_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_M1IP_Abrams_US, 3),
         (~/Descriptor_Deck_Pack_M1_Abrams_CMD_US, 1),
         (~/Descriptor_Deck_Pack_M1_Abrams_NG_US, 2),
-        (~/Descriptor_Deck_Pack_M270_MLRS_US, 2),
+        (~/Descriptor_Deck_Pack_M270_ATACMS_cluster_US, 1),
         (~/Descriptor_Deck_Pack_M2A1_Bradley_Leader_US, 2),
         (~/Descriptor_Deck_Pack_M35_supply_US, 1),
         (~/Descriptor_Deck_Pack_M3A1_Bradley_CFV_US, 2),
@@ -2329,6 +2332,7 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'ECGMWQOEZA'
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_F35A_US, 2),
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_ATGM_US, 1),
         (~/Descriptor_Deck_Pack_A10_Thunderbolt_II_US, 1),
         (~/Descriptor_Deck_Pack_AH1F_Cobra_US, 4),

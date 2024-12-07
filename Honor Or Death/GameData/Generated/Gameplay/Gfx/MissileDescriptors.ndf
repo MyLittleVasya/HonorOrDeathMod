@@ -120,7 +120,7 @@ export Descriptor_Missile_STORM_SHADOW is TEntityDescriptor
             (
                 MaxSpeedGRU        = 800
                 MaxAccelerationGRU = 150
-                AutoGyr            = 0.05981317007977318
+                AutoGyr            = 0.04981317007977318
             )
             UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
             (

@@ -1,20 +1,20 @@
-Ammo_RocketArt_M26_227mms is TAmmunitionDescriptor
+Ammo_ATACMS_CLUSTER is TAmmunitionDescriptor
 (
-    DescriptorId = GUID:{e56634e9-a0e0-zca2-b1d2-416a7f80e22f}
-    Name = 'FWHFPHNWKS'
+    DescriptorId = GUID:{839ac948-e3f5-z055-8863-e38713569fdb}
+    Name = 'mgm140a'
     TypeCategoryName = 'LTMWHXRDRX'
-    Caliber = 'VAQCERVWDC'
+    Caliber = 'ballmis'
     WeaponDescriptionToken = 'RocketDes'
-    TraitsToken = ['STAT', 'HE', 'IND']
+    TraitsToken = ['STAT', 'cluster', 'IND']
     WeaponCursorType = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory = MinMax_MLRS
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_howz
-        Index = 1
+        Family = DamageFamily_clu_sol_ap
+        Index = 6
     )
     ProjectileType = EProjectileType/Artillerie
-    ImpactHappening = ['RoquetteM26M270227Mm']
+    ImpactHappening = ['RoquetteM26M270227MmCluster']
     FxPower = EFXPower/Moyen
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -25,13 +25,15 @@ Ammo_RocketArt_M26_227mms is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 212
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 168
+    RadiusSplashPhysicalDamagesGRU = 149
     PhysicalDamages = 2.27
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 198
-    SuppressDamages = 306.0
+    RadiusSplashSuppressDamagesGRU = 200
+    SuppressDamages = 450.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = True
+    IsSubAmmunition = True
+    ForceHitTopArmor = True
     TirIndirect = True
     TirReflexe = False
     InterdireTirReflexe = False
@@ -43,7 +45,7 @@ Ammo_RocketArt_M26_227mms is TAmmunitionDescriptor
     TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-        DescriptorId = GUID:{a78bd394-00d8-45fc-zbf2-57ef324fa893}
+        DescriptorId = GUID:{z1b6380a-29a1-4b1f-ab70-cace08048a6c}
         BaseCriticModifier = 25
         BaseHitValueModifiers = 
         [
@@ -55,30 +57,31 @@ Ammo_RocketArt_M26_227mms is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount = 1
-    TempsDeVisee = 0
-    TempsEntreDeuxSalves = 180.0
+    TempsDeVisee = 45.0
+    TempsEntreDeuxSalves = 225.0
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
-    NbTirParSalves = 12
-    SupplyCost = 900
+    NbTirParSalves = 20
+    SupplyCost = 2750.0
     NbSalvosShootOnPosition = 1
     CanShootOnPosition = True
     CanShootWhileMoving = False
-    NbrProjectilesSimultanes = 1
-    AffichageMunitionParSalve = 12
-    InterfaceWeaponTexture = "Texture_Interface_Weapon_m26"
+    NbrProjectilesSimultanes = 20
+    AffichageMunitionParSalve = 1
+    InterfaceWeaponTexture = "Texture_Interface_Weapon_ATACMS"
     SmokeDescriptor = nil
     FireDescriptor = $/GFX/Weapon/Descriptor_Fire_Incendie
-    FireTriggeringProbability = 0.2
+    FireTriggeringProbability = 0.3
     TargetUnitCenter = True
     CanHarmAirplanes = True
     IsHarmlessForAllies = False
-    PiercingWeapon = False
+    PiercingWeapon = True
     TandemCharge = False
-    FlightTimeForSpeed = 60.0
+    FlightTimeForSpeed = 45.0
     DistanceForSpeedGRU = 42375.0
     DamageTypeEvolutionOverRangeDescriptor = nil
 )
+
 
 Ammo_Lance_grenade_M32 is TAmmunitionDescriptor
 (
@@ -582,7 +585,7 @@ Ammo_Canon_HE_125_mm_KBA_3 is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamagesGRU    = 22
-    PhysicalDamages                   = 2.25
+    PhysicalDamages                   = 2.50
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamagesGRU    = 36
     SuppressDamages                   = 169.0
@@ -818,8 +821,8 @@ Ammo_AutoCanon_AP_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['CanonPetitM242APFSDST']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 0.2
-    TempsEntreDeuxFx = 0.3
+    TempsEntreDeuxTirs = 0.08
+    TempsEntreDeuxFx = 0.08
     PorteeMaximaleGRU = 1575
     PorteeMinimaleGRU = 35
     AffecteParNombre = True
@@ -1310,8 +1313,8 @@ Ammo_AutoCanon_AP_30mm_24A2_BMP2 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['CanonPetit24A2AP']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 0.3
-    TempsEntreDeuxFx = 0.3
+    TempsEntreDeuxTirs = 0.1
+    TempsEntreDeuxFx = 0.1
     PorteeMaximaleGRU = 1750
     PorteeMinimaleGRU = 35
     AffecteParNombre = True
@@ -2052,8 +2055,8 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['CanonPetitM242HEIT']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 0.2
-    TempsEntreDeuxFx = 0.3
+    TempsEntreDeuxTirs = 0.08
+    TempsEntreDeuxFx = 0.08
     PorteeMaximaleGRU = 1575
     PorteeMaximaleTBAGRU = 1425
     PorteeMinimaleGRU = 35
@@ -2556,8 +2559,8 @@ Ammo_AutoCanon_HE_30mm_24A2_BMP2 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['CanonPetit24A2HE']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 0.3
-    TempsEntreDeuxFx = 0.3
+    TempsEntreDeuxTirs = 0.1
+    TempsEntreDeuxFx = 0.1
     PorteeMaximaleGRU = 1750
     PorteeMaximaleTBAGRU = 1600
     PorteeMinimaleGRU = 35
@@ -41249,15 +41252,15 @@ Ammo_Howz_Canon_M240_SP_240mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['ArtillerieM185155Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 9625
     PorteeMinimaleGRU = 1367
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 158
     PhysicalDamages = 2.4
     ShowDamageInUI = True
@@ -41310,6 +41313,7 @@ Ammo_Howz_Canon_M240_SP_240mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 9625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Howz_Canon_M240_SP_240mm_SMOKE is TAmmunitionDescriptor
@@ -41330,15 +41334,15 @@ Ammo_Howz_Canon_M240_SP_240mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['ArtillerieM185155MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 9625
     PorteeMinimaleGRU = 1367
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -41391,6 +41395,7 @@ Ammo_Howz_Canon_M240_SP_240mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 9625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Howz_Canon_M30_Howitzer_122mm is TAmmunitionDescriptor
@@ -45445,7 +45450,7 @@ Ammo_MMG_M60_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -46356,7 +46361,7 @@ Ammo_MMG_PKM_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -46855,7 +46860,7 @@ Ammo_MMG_inf__MG3_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -46938,7 +46943,7 @@ Ammo_MMG_inf__MG42_59_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -47021,7 +47026,7 @@ Ammo_MMG_inf_AA52_7_5mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -47104,7 +47109,7 @@ Ammo_MMG_inf_AANF1_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -47187,7 +47192,7 @@ Ammo_MMG_inf_L7A2_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -47270,7 +47275,7 @@ Ammo_MMG_inf_M240B_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -47353,7 +47358,7 @@ Ammo_MMG_inf_MAG_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -47436,7 +47441,7 @@ Ammo_MMG_inf_UK_Vz59L_7_62mm is TAmmunitionDescriptor
     DispersionWithoutSorting = True
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 4
-    PhysicalDamages = 0.25
+    PhysicalDamages = 0.18
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 11
     SuppressDamages = 15.0
@@ -49397,15 +49402,15 @@ Ammo_Mortier_2B14_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -49458,6 +49463,7 @@ Ammo_Mortier_2B14_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_2B14_82mm_TOWED is TAmmunitionDescriptor
@@ -49478,15 +49484,15 @@ Ammo_Mortier_2B14_82mm_TOWED is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -49539,6 +49545,7 @@ Ammo_Mortier_2B14_82mm_TOWED is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_2S12_120mm is TAmmunitionDescriptor
@@ -49559,17 +49566,17 @@ Ammo_Mortier_2S12_120mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -49620,6 +49627,7 @@ Ammo_Mortier_2S12_120mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_2S12_120mm_SMOKE is TAmmunitionDescriptor
@@ -49640,15 +49648,15 @@ Ammo_Mortier_2S12_120mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -49701,6 +49709,7 @@ Ammo_Mortier_2S12_120mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_60mm_longue_portee is TAmmunitionDescriptor
@@ -49721,15 +49730,15 @@ Ammo_Mortier_60mm_longue_portee is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4225
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 38
     PhysicalDamages = 0.84
     ShowDamageInUI = True
@@ -49781,6 +49790,7 @@ Ammo_Mortier_60mm_longue_portee is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4633.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm is TAmmunitionDescriptor
@@ -49801,15 +49811,15 @@ Ammo_Mortier_81mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -49862,6 +49872,7 @@ Ammo_Mortier_81mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_61C is TAmmunitionDescriptor
@@ -49882,15 +49893,15 @@ Ammo_Mortier_81mm_61C is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -49943,6 +49954,7 @@ Ammo_Mortier_81mm_61C is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_61C_SMOKE is TAmmunitionDescriptor
@@ -49963,15 +49975,15 @@ Ammo_Mortier_81mm_61C_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -50024,6 +50036,7 @@ Ammo_Mortier_81mm_61C_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_ECIA_L65 is TAmmunitionDescriptor
@@ -50044,15 +50057,15 @@ Ammo_Mortier_81mm_ECIA_L65 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -50105,6 +50118,7 @@ Ammo_Mortier_81mm_ECIA_L65 is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_ECIA_L65_SMOKE is TAmmunitionDescriptor
@@ -50125,15 +50139,15 @@ Ammo_Mortier_81mm_ECIA_L65_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -50186,6 +50200,7 @@ Ammo_Mortier_81mm_ECIA_L65_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_MO81_61C_towed is TAmmunitionDescriptor
@@ -50206,15 +50221,15 @@ Ammo_Mortier_81mm_MO81_61C_towed is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -50267,6 +50282,7 @@ Ammo_Mortier_81mm_MO81_61C_towed is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_MO81_61C_towed_SMOKE is TAmmunitionDescriptor
@@ -50287,15 +50303,15 @@ Ammo_Mortier_81mm_MO81_61C_towed_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -50348,6 +50364,7 @@ Ammo_Mortier_81mm_MO81_61C_towed_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_SMOKE is TAmmunitionDescriptor
@@ -50368,15 +50385,15 @@ Ammo_Mortier_81mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -50429,6 +50446,7 @@ Ammo_Mortier_81mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_SMOKE_TOWED is TAmmunitionDescriptor
@@ -50449,15 +50467,15 @@ Ammo_Mortier_81mm_SMOKE_TOWED is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -50510,6 +50528,7 @@ Ammo_Mortier_81mm_SMOKE_TOWED is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_TOWED is TAmmunitionDescriptor
@@ -50530,15 +50549,15 @@ Ammo_Mortier_81mm_TOWED is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -50591,6 +50610,7 @@ Ammo_Mortier_81mm_TOWED is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_towed_61C is TAmmunitionDescriptor
@@ -50611,15 +50631,15 @@ Ammo_Mortier_81mm_towed_61C is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -50672,6 +50692,7 @@ Ammo_Mortier_81mm_towed_61C is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_towed_61C_SMOKE is TAmmunitionDescriptor
@@ -50692,15 +50713,15 @@ Ammo_Mortier_81mm_towed_61C_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -50753,6 +50774,7 @@ Ammo_Mortier_81mm_towed_61C_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_81mm_TOWED_CLU_Guided is TAmmunitionDescriptor
@@ -50773,8 +50795,8 @@ Ammo_Mortier_81mm_TOWED_CLU_Guided is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
@@ -50782,7 +50804,7 @@ Ammo_Mortier_81mm_TOWED_CLU_Guided is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 50
     DispersionWithoutSorting = True
     CorrectedShotDispersionMultiplier = 0.25
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -50858,17 +50880,17 @@ Ammo_Mortier_ECIA_L65_120mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -50919,6 +50941,7 @@ Ammo_Mortier_ECIA_L65_120mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_ECIA_L65_120mm_SMOKE is TAmmunitionDescriptor
@@ -50939,15 +50962,15 @@ Ammo_Mortier_ECIA_L65_120mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -51000,6 +51023,7 @@ Ammo_Mortier_ECIA_L65_120mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_L16_82mm is TAmmunitionDescriptor
@@ -51020,15 +51044,15 @@ Ammo_Mortier_L16_82mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -51081,6 +51105,7 @@ Ammo_Mortier_L16_82mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_L16_82mm_SMOKE is TAmmunitionDescriptor
@@ -51101,15 +51126,15 @@ Ammo_Mortier_L16_82mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -51162,6 +51187,7 @@ Ammo_Mortier_L16_82mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M1_81mm_towed is TAmmunitionDescriptor
@@ -51182,15 +51208,15 @@ Ammo_Mortier_M1_81mm_towed is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 3500
     PorteeMinimaleGRU = 901
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -51243,6 +51269,7 @@ Ammo_Mortier_M1_81mm_towed is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4633.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M1_81mm_towed_SMOKE is TAmmunitionDescriptor
@@ -51263,15 +51290,15 @@ Ammo_Mortier_M1_81mm_towed_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 3500
     PorteeMinimaleGRU = 901
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -51324,6 +51351,7 @@ Ammo_Mortier_M1_81mm_towed_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4633.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M240_240mm is TAmmunitionDescriptor
@@ -51752,15 +51780,15 @@ Ammo_Mortier_M252_81mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -51813,6 +51841,7 @@ Ammo_Mortier_M252_81mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M252_81mm_SMOKE is TAmmunitionDescriptor
@@ -51833,15 +51862,15 @@ Ammo_Mortier_M252_81mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -51894,6 +51923,7 @@ Ammo_Mortier_M252_81mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M29_81mm is TAmmunitionDescriptor
@@ -51914,15 +51944,15 @@ Ammo_Mortier_M29_81mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -51975,6 +52005,7 @@ Ammo_Mortier_M29_81mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M29_81mm_SMOKE is TAmmunitionDescriptor
@@ -51995,15 +52026,15 @@ Ammo_Mortier_M29_81mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -52056,6 +52087,7 @@ Ammo_Mortier_M29_81mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
@@ -52076,17 +52108,17 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 4.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 68
-    PhysicalDamages = 1.177
+    PhysicalDamages = 1.65
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 105
     SuppressDamages = 140.0
@@ -52137,6 +52169,7 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
@@ -52157,15 +52190,15 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -52217,6 +52250,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
@@ -52237,15 +52271,15 @@ Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -52297,6 +52331,7 @@ Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M40_tower_107mm is TAmmunitionDescriptor
@@ -52317,17 +52352,17 @@ Ammo_Mortier_M40_tower_107mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 4.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 68
-    PhysicalDamages = 1.177
+    PhysicalDamages = 1.65
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 105
     SuppressDamages = 140.0
@@ -52378,6 +52413,7 @@ Ammo_Mortier_M40_tower_107mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M43_160mm is TAmmunitionDescriptor
@@ -52398,17 +52434,17 @@ Ammo_Mortier_M43_160mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -52459,6 +52495,7 @@ Ammo_Mortier_M43_160mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M43_160mm_SMOKE is TAmmunitionDescriptor
@@ -52479,15 +52516,15 @@ Ammo_Mortier_M43_160mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -52540,6 +52577,7 @@ Ammo_Mortier_M43_160mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M43_82mm_SMOKE_TOWED is TAmmunitionDescriptor
@@ -52560,15 +52598,15 @@ Ammo_Mortier_M43_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -52621,6 +52659,7 @@ Ammo_Mortier_M43_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M43_82mm_TOWED is TAmmunitionDescriptor
@@ -52641,15 +52680,15 @@ Ammo_Mortier_M43_82mm_TOWED is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -52702,6 +52741,7 @@ Ammo_Mortier_M43_82mm_TOWED is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_PM41_82mm is TAmmunitionDescriptor
@@ -52722,17 +52762,17 @@ Ammo_Mortier_PM41_82mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
-    PhysicalDamages = 0.9963000000000001
+    PhysicalDamages = 1.65
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 77
     SuppressDamages = 115.0
@@ -52782,6 +52822,7 @@ Ammo_Mortier_PM41_82mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_PM43_120mm is TAmmunitionDescriptor
@@ -52802,17 +52843,17 @@ Ammo_Mortier_PM43_120mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 6.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -52863,6 +52904,7 @@ Ammo_Mortier_PM43_120mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_PM43_120mm_SMOKE is TAmmunitionDescriptor
@@ -52883,15 +52925,15 @@ Ammo_Mortier_PM43_120mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -52944,6 +52986,7 @@ Ammo_Mortier_PM43_120mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_PRAM_120mm is TAmmunitionDescriptor
@@ -52964,17 +53007,17 @@ Ammo_Mortier_PRAM_120mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -53025,6 +53068,7 @@ Ammo_Mortier_PRAM_120mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_PRAM_120mm_SMOKE is TAmmunitionDescriptor
@@ -53045,15 +53089,15 @@ Ammo_Mortier_PRAM_120mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -53106,6 +53150,7 @@ Ammo_Mortier_PRAM_120mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_RT61_120mm is TAmmunitionDescriptor
@@ -53126,17 +53171,17 @@ Ammo_Mortier_RT61_120mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -53187,6 +53232,7 @@ Ammo_Mortier_RT61_120mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_RT61_120mm_SMOKE is TAmmunitionDescriptor
@@ -53207,15 +53253,15 @@ Ammo_Mortier_RT61_120mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -53268,6 +53314,7 @@ Ammo_Mortier_RT61_120mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_RT61_towed_120mm is TAmmunitionDescriptor
@@ -53288,17 +53335,17 @@ Ammo_Mortier_RT61_towed_120mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -53349,6 +53396,7 @@ Ammo_Mortier_RT61_towed_120mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_RT61_towed_120mm_SMOKE is TAmmunitionDescriptor
@@ -53369,15 +53417,15 @@ Ammo_Mortier_RT61_towed_120mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5625
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -53430,6 +53478,7 @@ Ammo_Mortier_RT61_towed_120mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5625.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_Tampella_120mm is TAmmunitionDescriptor
@@ -53450,17 +53499,17 @@ Ammo_Mortier_Tampella_120mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5275
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -53511,6 +53560,7 @@ Ammo_Mortier_Tampella_120mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5275.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_Tampella_120mm_SMOKE is TAmmunitionDescriptor
@@ -53531,15 +53581,15 @@ Ammo_Mortier_Tampella_120mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5275
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -53592,6 +53642,7 @@ Ammo_Mortier_Tampella_120mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5275.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_Tampella_towed_120mm is TAmmunitionDescriptor
@@ -53612,17 +53663,17 @@ Ammo_Mortier_Tampella_towed_120mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5275
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 84
-    PhysicalDamages = 1.342
+    PhysicalDamages = 1.85
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 127
     SuppressDamages = 150.0
@@ -53673,6 +53724,7 @@ Ammo_Mortier_Tampella_towed_120mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5275.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_Tampella_towed_120mm_SMOKE is TAmmunitionDescriptor
@@ -53693,15 +53745,15 @@ Ammo_Mortier_Tampella_towed_120mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5275
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -53754,6 +53806,7 @@ Ammo_Mortier_Tampella_towed_120mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5275.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_Vasilek_82mm is TAmmunitionDescriptor
@@ -53934,15 +53987,15 @@ Ammo_Mortier_Vasilek_indirect_82mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierVasilek']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 0.4
-    TempsEntreDeuxFx = 0.4
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 1.0086
     ShowDamageInUI = True
@@ -53995,6 +54048,7 @@ Ammo_Mortier_Vasilek_indirect_82mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 16.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
@@ -54015,15 +54069,15 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierVasilek']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 0.4
-    TempsEntreDeuxFx = 0.4
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 4925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 1.0086
     ShowDamageInUI = True
@@ -54076,6 +54130,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
     FlightTimeForSpeed = 16.0
     DistanceForSpeedGRU = 4925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_vz_52_82mm_SMOKE_TOWED is TAmmunitionDescriptor
@@ -54096,15 +54151,15 @@ Ammo_Mortier_vz_52_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -54157,6 +54212,7 @@ Ammo_Mortier_vz_52_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_vz_52_82mm_TOWED is TAmmunitionDescriptor
@@ -54177,15 +54233,15 @@ Ammo_Mortier_vz_52_82mm_TOWED is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 5925
     PorteeMinimaleGRU = 1202
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -54238,6 +54294,7 @@ Ammo_Mortier_vz_52_82mm_TOWED is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 5925.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M1_81mm is TAmmunitionDescriptor
@@ -54258,15 +54315,15 @@ Ammo_Mortier_M1_81mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 3500
     PorteeMinimaleGRU = 901
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 52
     PhysicalDamages = 0.9963000000000001
     ShowDamageInUI = True
@@ -54319,6 +54376,7 @@ Ammo_Mortier_M1_81mm is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4633.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_Mortier_M1_81mm_SMOKE is TAmmunitionDescriptor
@@ -54339,15 +54397,15 @@ Ammo_Mortier_M1_81mm_SMOKE is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['MortierM30107MmSmoke']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 3.0
+    TempsEntreDeuxTirs = 3
+    TempsEntreDeuxFx = 2
     PorteeMaximaleGRU = 3500
     PorteeMinimaleGRU = 901
     AngleDispersion = 0.0
     DispersionAtMaxRangeGRU = 353
     DispersionAtMinRangeGRU = 71
     DispersionWithoutSorting = True
-    CorrectedShotAimtimeMultiplier = 1.0
+    CorrectedShotAimtimeMultiplier = 0.5
     RadiusSplashPhysicalDamagesGRU = 2
     PhysicalDamages = 0.12
     ShowDamageInUI = True
@@ -54400,6 +54458,7 @@ Ammo_Mortier_M1_81mm_SMOKE is TAmmunitionDescriptor
     FlightTimeForSpeed = 15.0
     DistanceForSpeedGRU = 4633.0
     DamageTypeEvolutionOverRangeDescriptor = nil
+    CorrectedShotDispersionMultiplier = 0.5
 )
 
 Ammo_PM_AKSU_74 is TAmmunitionDescriptor
@@ -61887,8 +61946,8 @@ Ammo_RocketArt_M21OF_122mm is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Artillerie
     ImpactHappening = ['Roquette110Mm130Mm']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 0.5
-    TempsEntreDeuxFx = 0.5
+    TempsEntreDeuxTirs = 0.35
+    TempsEntreDeuxFx = 0.35
     PorteeMaximaleGRU = 17650
     PorteeMinimaleGRU = 3534
     AngleDispersion = 0.0
@@ -68831,8 +68890,8 @@ Ammo_Sniper_C3A1 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1250
     PorteeMaximaleTBAGRU = 1050
     PorteeMinimaleGRU = 177
@@ -68843,7 +68902,7 @@ Ammo_Sniper_C3A1 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 100.0
@@ -68912,8 +68971,8 @@ Ammo_Sniper_CETME_C is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 850
     PorteeMaximaleTBAGRU = 700
     PorteeMinimaleGRU = 177
@@ -68924,7 +68983,7 @@ Ammo_Sniper_CETME_C is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -68993,8 +69052,8 @@ Ammo_Sniper_FAL is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 850
     PorteeMaximaleTBAGRU = 700
     PorteeMinimaleGRU = 177
@@ -69005,7 +69064,7 @@ Ammo_Sniper_FAL is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -69075,8 +69134,8 @@ Ammo_Sniper_FN_Model_3011 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1250
     PorteeMaximaleTBAGRU = 1050
     PorteeMinimaleGRU = 177
@@ -69087,7 +69146,7 @@ Ammo_Sniper_FN_Model_3011 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 100.0
@@ -69157,8 +69216,8 @@ Ammo_Sniper_FRF1 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 850
     PorteeMaximaleTBAGRU = 700
     PorteeMinimaleGRU = 177
@@ -69169,7 +69228,7 @@ Ammo_Sniper_FRF1 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -69239,8 +69298,8 @@ Ammo_Sniper_FRF2 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1250
     PorteeMaximaleTBAGRU = 1050
     PorteeMinimaleGRU = 177
@@ -69251,7 +69310,7 @@ Ammo_Sniper_FRF2 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 100.0
@@ -69321,8 +69380,8 @@ Ammo_Sniper_G3A3ZF is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 850
     PorteeMaximaleTBAGRU = 700
     PorteeMinimaleGRU = 177
@@ -69333,7 +69392,7 @@ Ammo_Sniper_G3A3ZF is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -69403,8 +69462,8 @@ Ammo_Sniper_L1A1_SLR is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 850
     PorteeMaximaleTBAGRU = 700
     PorteeMinimaleGRU = 177
@@ -69415,7 +69474,7 @@ Ammo_Sniper_L1A1_SLR is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -69485,8 +69544,8 @@ Ammo_Sniper_L96A1 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1250
     PorteeMaximaleTBAGRU = 1050
     PorteeMinimaleGRU = 177
@@ -69497,7 +69556,7 @@ Ammo_Sniper_L96A1 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 100.0
@@ -69567,8 +69626,8 @@ Ammo_Sniper_M14 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 850
     PorteeMaximaleTBAGRU = 700
     PorteeMinimaleGRU = 177
@@ -69579,7 +69638,7 @@ Ammo_Sniper_M14 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -69649,8 +69708,8 @@ Ammo_Sniper_M24 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1250
     PorteeMaximaleTBAGRU = 1050
     PorteeMinimaleGRU = 177
@@ -69661,7 +69720,7 @@ Ammo_Sniper_M24 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 100.0
@@ -69731,8 +69790,8 @@ Ammo_Sniper_M43 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1250
     PorteeMaximaleTBAGRU = 1050
     PorteeMinimaleGRU = 177
@@ -69743,7 +69802,7 @@ Ammo_Sniper_M43 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 100.0
@@ -69812,8 +69871,8 @@ Ammo_Sniper_Mosin_Nagant is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1250
     PorteeMaximaleTBAGRU = 1050
     PorteeMinimaleGRU = 177
@@ -69824,7 +69883,7 @@ Ammo_Sniper_Mosin_Nagant is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 100.0
@@ -69893,8 +69952,8 @@ Ammo_Sniper_PSG1 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 850
     PorteeMaximaleTBAGRU = 700
     PorteeMinimaleGRU = 177
@@ -69905,7 +69964,7 @@ Ammo_Sniper_PSG1 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -69975,8 +70034,8 @@ Ammo_Sniper_Remington_700 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1250
     PorteeMaximaleTBAGRU = 1050
     PorteeMinimaleGRU = 177
@@ -69987,7 +70046,7 @@ Ammo_Sniper_Remington_700 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 100.0
@@ -70057,8 +70116,8 @@ Ammo_Sniper_SVD_Dragunov is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 3.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 850
     PorteeMaximaleTBAGRU = 700
     PorteeMinimaleGRU = 177
@@ -70069,7 +70128,7 @@ Ammo_Sniper_SVD_Dragunov is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -70139,8 +70198,8 @@ Ammo_Sniper_VSS_Vintorez is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniper762']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 2.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 501
     PorteeMaximaleTBAGRU = 450
     PorteeMinimaleGRU = 71
@@ -70151,7 +70210,7 @@ Ammo_Sniper_VSS_Vintorez is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.15
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 13
     SuppressDamages = 35.0
@@ -70221,8 +70280,8 @@ Ammo_SniperHvy_Barret_M82 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniperLourd127']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 5.0
-    TempsEntreDeuxFx = 5.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1400
     PorteeMaximaleTBAGRU = 1050
     AffecteParNombre = True
@@ -70232,7 +70291,7 @@ Ammo_SniperHvy_Barret_M82 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.325
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 0
     SuppressDamages = 13.0
@@ -70302,8 +70361,8 @@ Ammo_SniperHvy_McMillan_TAC50 is TAmmunitionDescriptor
     ProjectileType = EProjectileType/Obus
     ImpactHappening = ['FusileSniperLourd127']
     FxPower = EFXPower/Moyen
-    TempsEntreDeuxTirs = 7.0
-    TempsEntreDeuxFx = 7.0
+    TempsEntreDeuxTirs = 0.3
+    TempsEntreDeuxFx = 0.3
     PorteeMaximaleGRU = 1400
     PorteeMaximaleTBAGRU = 1050
     AffecteParNombre = True
@@ -70313,7 +70372,7 @@ Ammo_SniperHvy_McMillan_TAC50 is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 0
-    PhysicalDamages = 0.325
+    PhysicalDamages = 0.2
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 0
     SuppressDamages = 13.0

@@ -1,5 +1,26 @@
 // Ne pas éditer, ce fichier est généré par DepictionVehiclesFileWriter_Specific_Showroom
 
+
+
+Gfx_NOVATOR_CMD_UKR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_NOVATOR_CMD_UKR
+    Selector = Selector_NOVATOR_CMD_UKR
+)
+
+Gfx_NOVATOR_STUGNA_UKR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_NOVATOR_STUGNA_UKR
+    Selector = Selector_NOVATOR_STUGNA_UKR
+)
+
+Gfx_Mortier_120mm_UKR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_Mortier_PM43_120mm_DDR
+    Selector = Selector_Mortier_PM43_120mm_DDR
+    SubDepictions = HumanSubDepictionsShowroom_Mortier_120mm_UKR
+)
+
 Gfx_ATteam_Stugna_UKR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_ATteam_KonkursM_TTsko_SOV

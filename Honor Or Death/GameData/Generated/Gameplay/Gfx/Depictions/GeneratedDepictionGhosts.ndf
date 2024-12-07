@@ -2,6 +2,18 @@
 
 
 
+GhostDepiction_NOVATOR_CMD_UKR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_NOVATOR_CMD_UKR
+    Alternatives = Alternatives_NOVATOR_CMD_UKR
+)
+
+GhostDepiction_NOVATOR_STUGNA_UKR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_NOVATOR_STUGNA_UKR
+    Alternatives = Alternatives_NOVATOR_STUGNA_UKR
+)
+
 GhostDepiction_VARTA_UKR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_VARTA_UKR
@@ -3231,6 +3243,8 @@ GhostDepiction_ZSU_57_2_DDR is GhostVehicleDepictionTemplate
 )
 VehicleMimeticGhost is MAP[
    
+  ( 'NOVATOR_CMD_UKR', GhostDepiction_NOVATOR_CMD_UKR ),
+  ( 'NOVATOR_STUGNA_UKR', GhostDepiction_NOVATOR_STUGNA_UKR ),
   ( 'VARTA_UKR', GhostDepiction_VARTA_UKR ),  
   ( 'BTR_4_UA', GhostDepiction_BTR_4_UA ),
   ( 'BM_OPLOT_UA', GhostDepiction_BM_OPLOT_UA ),

@@ -1,0 +1,128 @@
+newmtl 10e77413-2a19-4b71-a6f2-00515b49d08d
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/ka_52_dark_c.jpg
+map_Ks textures/ka_52_camo_n_s.jpg
+map_normal textures/ka_52_camo_n_n.jpg
+map_ao textures/ka_52_camo_n_ao.jpg
+
+newmtl 2b9eb962-0b71-486f-a8ab-769991132d3f
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/ka_52_interior_c.jpg
+map_Ks textures/ka_52_interior_n_s.jpg
+map_normal textures/ka_52_interior_n_n.jpg
+map_ao textures/ka_52_interior_n_ao.jpg
+
+newmtl aec2205a-fcb2-467f-828f-1384ea64268e
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/ka_52_dark_c.jpg
+map_Ks textures/ka_52_camo_n_s.jpg
+map_normal textures/ka_52_camo_n_n.jpg
+map_ao textures/ka_52_camo_n_ao.jpg
+
+newmtl 6f210a1b-a6ea-4556-94be-74670aa82e34
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/ka_52_camo_inside_a.jpg
+map_Ks textures/ka_52_camo_inside_n_s.jpg
+map_normal textures/ka_52_camo_inside_n_n.jpg
+map_ao textures/ka_52_camo_inside_n_ao.jpg
+map_d textures/ka_52_camo_inside_a_a.png
+
+newmtl 33cfea93-7b7f-48a3-9743-0adc57a40f54
+Kd 1.000 1.000 1.000
+Ks 0.043 0.043 0.043
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/mesh1_a.jpg
+map_Ks textures/mesh1_n_s.jpg
+map_normal textures/mesh1_n_n.jpg
+map_ao textures/mesh1_n_ao.jpg
+map_d textures/mesh1_a_a.png
+
+newmtl ebae8ef4-bfe2-4235-a6c4-34b233ff9e1e
+Kd 0.000 0.000 0.000
+Ks 0.000 0.000 0.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.17
+
+newmtl aed47572-1e82-422b-b8aa-9765c0eb75ae
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/ka_52_dark_c.jpg
+map_Ks textures/ka_52_camo_n_s.jpg
+map_normal textures/ka_52_camo_n_n.jpg
+map_ao textures/ka_52_camo_n_ao.jpg
+
+newmtl 35353651-3742-4ee3-ba1a-cbafea9cbc39
+Kd 0.000 0.000 0.000
+Ks 0.000 0.000 0.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.27
+
+newmtl f574f015-4e6e-4ea7-a3cc-82a0af542a50
+Kd 1.000 1.000 1.000
+Ks 0.235 0.235 0.235
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/ka_52_pylon_c.jpg
+map_Ks textures/ka_52_pylon_n_s.jpg
+map_normal textures/ka_52_pylon_n_n.jpg
+map_ao textures/ka_52_pylon_n_ao.jpg
+
+newmtl 93b46c04-b7f9-400a-ab1e-f21b457c1533
+Kd 0.000 0.000 0.000
+Ks 0.000 0.000 0.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.6
+
+newmtl e75a195b-81aa-4128-9b02-b17d4e15b9f2
+Kd 0.000 0.000 0.000
+Ks 0.000 0.000 0.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.2
+
+newmtl 595418a2-412b-4bf1-b2c0-746a5dd19734
+Kd 0.000 0.000 0.000
+Ks 0.000 0.000 0.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.3
+
+newmtl 06f134dd-a51d-403b-9635-030dcce89050
+Kd 0.000 0.000 0.000
+Ks 0.000 0.000 0.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.9
+
+newmtl ac5f7b55-8f82-47cf-bde7-a96418cb9f27
+Kd 0.000 0.000 0.000
+Ks 0.000 0.000 0.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.6
+
+newmtl a965ec97-0702-42b4-9f3e-406c5dca10f7
+Kd 0.000 0.000 0.000
+Ks 0.000 0.000 0.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.6
+

@@ -1,5 +1,7 @@
 // Ne pas éditer, ce fichier est généré par DepictionSelectorsFileWriter
 
+Selector_NOVATOR_CMD_UKR is SpecificVehicleDepictionSelector
+Selector_NOVATOR_STUGNA_UKR is SpecificVehicleDepictionSelector
 Selector_VARTA_UKR is SpecificVehicleDepictionSelector
 Selector_BTR_4_UA is SpecificVehicleDepictionSelector
 Selector_BM_OPLOT_UA is SpecificVehicleDepictionSelector

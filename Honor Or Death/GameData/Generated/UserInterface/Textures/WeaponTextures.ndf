@@ -1,5 +1,10 @@
 // Ne pas éditer, ce fichier est généré par WeaponTextureFileWriter
 
+Texture_Interface_Weapon_ATACMS is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/atacms.png"
+)
+
 Texture_Interface_Weapon_mk18 is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/mk18.png"
@@ -1251,6 +1256,7 @@ WeaponAdditionalTextureBank is TBUCKToolAdditionalTextureBank
     [
         
         ("Texture_Interface_Weapon_MICA_EM", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_MICA_EM)]),
+        ("Texture_Interface_Weapon_ATACMS", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_ATACMS)]),
         ("Texture_Interface_Weapon_mgl", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_mgl)]),
         ("Texture_Interface_Weapon_mk18", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_mk18)]),
         ("Texture_Interface_Weapon_STORM_SHADOW", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_STORM_SHADOW)]),

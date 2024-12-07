@@ -1499,6 +1499,9 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_SHARK_UAV_UKR, 3016),
         ($/GFX/Unit/Descriptor_Unit_F35A_US, 3017),
         ($/GFX/Unit/Descriptor_Unit_RAFALE_FR, 3018),
-        
+        ($/GFX/Unit/Descriptor_Unit_Mortier_120mm_UKR, 3019),
+        ($/GFX/Unit/Descriptor_Unit_NOVATOR_STUGNA_UKR, 3020),
+        ($/GFX/Unit/Descriptor_Unit_NOVATOR_CMD_UKR, 3021),
+        ($/GFX/Unit/Descriptor_Unit_M270_ATACMS_cluster_US, 3022),
     ]
 )

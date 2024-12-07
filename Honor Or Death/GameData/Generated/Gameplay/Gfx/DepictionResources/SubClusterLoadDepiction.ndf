@@ -4,6 +4,9 @@ export TransactionGenerated is TNDFTransactionFileList
 (
     Files =
     [
+        
+        'GameData:/Gameplay/Gfx/DepictionResources/UA/char/novator.ndf',
+        'GameData:/Gameplay/Gfx/DepictionResources/UA/char/comnovator.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/FR/Avion/rafale.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/US/Avion/f35.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/UA/char/shark.ndf',
