@@ -1,6 +1,81 @@
 // Ne pas éditer, ce fichier est généré par ShowRoomUnitDescriptorFileWriter
 
 
+export Descriptor_ShowRoomUnit_KA52_RU is TEntityDescriptor
+(
+    DescriptorId        = GUID:{0c5244b4-s44s-4562-89c9-0becf9e18888}
+    ClassNameForDebug   = "ShowRoomUnit_KA52_RU"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_KA52_RU_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_KA52_RU
+            GameplayBBoxBoneName = 'chassis'
+        ),
+        $/GFX/Weapon/WeaponDescriptor_KA52_RU,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_helico
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Helico
+            HasServants = False
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_BMD4_RU is TEntityDescriptor
+(
+    DescriptorId        = GUID:{e5bf677a-z946-47fb-ab3f-4e0e0505fd0z}
+    ClassNameForDebug   = "ShowRoomUnit_BMD4_RU"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_BMD4_RU_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_BMD4_RU
+        ),
+        $/GFX/Weapon/WeaponDescriptor_BMP_3_SOV,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
+        ),
+    ]
+)
+
 export Descriptor_ShowRoomUnit_M270_ATACMS_cluster_US is TEntityDescriptor
 (
     DescriptorId        = GUID:{8fc1bba6-z0aa-4103-941b-88a9410b2b19}

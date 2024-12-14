@@ -1,6 +1,20 @@
 // Ne pas éditer, ce fichier est généré par MissileCarriageDepictionGeneratorFileWriter
 
 
+
+SubGenerators_KA52_RU is TStaticMissileCarriageSubDepictionGenerator
+(
+    MissileCarriageConnoisseur = MissileCarriage_KA52_RU
+    Pylons = ~/DepictionPylonSet_Helico_SOV
+    ReferenceMesh = $/GFX/DepictionResources/Modele_KA52_RU
+)
+SubGenerators_Showroom_KA52_RU is TStaticMissileCarriageSubDepictionGenerator
+(
+    MissileCarriageConnoisseur = MissileCarriage_KA52_RU_Showroom
+    Pylons = ~/DepictionPylonSet_Helico_SOV_Showroom
+    ReferenceMesh = $/GFX/DepictionResources/Modele_KA52_RU
+)
+
 SubGenerators_RAFALE_FR is TStaticMissileCarriageSubDepictionGenerator
 (
     MissileCarriageConnoisseur = MissileCarriage_RAFALE_FR

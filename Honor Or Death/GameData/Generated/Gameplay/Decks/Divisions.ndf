@@ -1158,6 +1158,7 @@ Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Mi_24V_AA_SOV, 1),
         (~/Descriptor_Deck_Pack_Mi_24V_AT_SOV, 2),
         (~/Descriptor_Deck_Pack_Mi_24V_RKT_SOV, 2),
+        (~/Descriptor_Deck_Pack_KA52_RU, 2),
         (~/Descriptor_Deck_Pack_Mortier_2S12_120mm_TTsko_SOV, 3),
         (~/Descriptor_Deck_Pack_MotRifles_BTR_TTsko_SOV, 1),
         (~/Descriptor_Deck_Pack_MotRifles_CMD_TTsko_SOV, 4),

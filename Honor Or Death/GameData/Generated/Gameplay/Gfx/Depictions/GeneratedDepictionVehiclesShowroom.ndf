@@ -1,7 +1,11 @@
 // Ne pas éditer, ce fichier est généré par DepictionVehiclesFileWriter_Specific_Showroom
 
 
-
+Gfx_BMD4_RU_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_BMD4_RU
+    Selector = Selector_BMD4_RU
+)
 Gfx_NOVATOR_CMD_UKR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_NOVATOR_CMD_UKR

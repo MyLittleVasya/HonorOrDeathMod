@@ -1,0 +1,15 @@
+
+export Modele_BMD4_RU is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
+)
+
+export Modele_BMD4_RU_MID is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
+)
+
+export Modele_BMD4_RU_LOW is ModelDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
+)

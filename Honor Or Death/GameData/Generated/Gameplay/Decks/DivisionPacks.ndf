@@ -5254,3 +5254,11 @@ Descriptor_Deck_Pack_M270_ATACMS_cluster_US is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_M270_ATACMS_cluster_US
 )
+Descriptor_Deck_Pack_BMD4_RU is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_BMD4_RU
+)
+Descriptor_Deck_Pack_KA52_RU is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_KA52_RU
+)

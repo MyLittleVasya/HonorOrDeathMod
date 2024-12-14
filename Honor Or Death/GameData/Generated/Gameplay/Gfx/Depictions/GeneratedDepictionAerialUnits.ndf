@@ -1,6 +1,153 @@
 // Ne pas éditer, ce fichier est généré par DepictionAerialUnitsFileWriter_Specific
 
 
+Op_KA52_RU_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    Anchors = 
+    [
+        "fx_tourelle1_tir_01",
+    ]
+    FireEffectTag = "weapon_effet_tag1"
+    NbProj = 1
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_1",
+    ]
+)
+Op_KA52_RU_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    Anchors = 
+    [
+        "fx_tourelle1_tir_01",
+    ]
+    FireEffectTag = "weapon_effet_tag2"
+    NbProj = 1
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_2",
+    ]
+)
+Op_KA52_RU_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_KA52_RU
+    FireEffectTag = "weapon_effet_tag3"
+    NbProj = 1
+    WeaponIndex = 2
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_3",
+    ]
+)
+Op_KA52_RU_Weapon4 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_KA52_RU
+    FireEffectTag = "weapon_effet_tag4"
+    NbProj = 1
+    WeaponIndex = 3
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_4",
+    ]
+)
+Op_KA52_RU_Weapon5 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_KA52_RU
+    FireEffectTag = "weapon_effet_tag5"
+    NbProj = 1
+    WeaponIndex = 4
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_5",
+    ]
+)
+Gfx_KA52_RU_Autogen is TacticAerialDepictionTemplate
+(
+    AdditionalTextures = $/M3D/Shader/HelicoDestTextures
+    Selector = SpecificHelicoDepictionSelector
+    CoatingName = 'KA52_RU'
+    Alternatives = Alternatives_KA52_RU
+
+    Operators = 
+        [
+            $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_KA50,
+            DepictionOperator_SoundProbe,
+            DepictionOperator_Turret_1_Aim,
+            Op_KA52_RU_Weapon1,
+            Op_KA52_RU_Weapon2,
+            Op_KA52_RU_Weapon3,
+            Op_KA52_RU_Weapon4,
+            Op_KA52_RU_Weapon5,
+            DepictionOperator_CriticalEffects,
+            DepictionOperator_HelicopterLanding,
+            DepictionOperator_GroundPuff_Helico,
+            DepictionOperator_ShadowPointCloudProvider,
+            DepictionOperator_Rotors
+            (
+                HelixList = 
+                [
+                    THelix
+                    (
+                        BladeCount = 3
+                        BladesBoneName = "helice_ls_1"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_1",
+                        ]
+                        Clockwise = False
+                        HelixBoneName = "bloc_moteur_1"
+                        RotationAxis = 2
+                        RotationSpeed = 242
+                    ),
+                    THelix
+                    (
+                        BladeCount = 3
+                        BladesBoneName = "helice_ls_2"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_2",
+                        ]
+                        Clockwise = False
+                        HelixBoneName = "bloc_moteur_2"
+                        RotationAxis = 2
+                        RotationSpeed = 242
+                    ),
+                ]
+            ),
+            DepictionOperator_Feedback_Degat_Level1,
+            DepictionOperator_Feedback_Degat_Level2,
+            DepictionOperator_Heat,
+            DepictionOperator_EjectableProps_Helico,
+            DepictionOperator_Flares,
+        ]
+        Actions = MAP[
+                    ( [ "weapon_effet_tag1" ], Weapon_AutoCanon_AP_30mm_24A2 ),
+                    ( [ "weapon_effet_tag2" ], Weapon_AutoCanon_HE_30mm_24A2 ),
+                    ( [ "weapon_effet_tag4" ], Weapon_AGM_9K121_Vikhr_x12 ),
+                    ( [ "weapon_effet_tag3" ], Weapon_RocketAir_B8_80mm_x10 ),
+                    ( [ "weapon_effet_tag5" ], Weapon_SAM_IglaV_x4 ),
+                ]
+                + DepictionAction_Stress_And_Wrecked_Helicopter
+                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1400 PaleCount = 3 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
+                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 1400 PaleCount = 3 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_2" ))]
+                + DepictionAction_CriticalFX_Helicopter
+                + DepictionAction_Flare_Double
+
+        SubDepictions = 
+
+        [
+            TSubDepiction
+            (
+                Anchors = 
+                [
+                    "pilot",
+                ]
+                Depiction = Pilot_Pilote_Helico_SOV
+            ),
+        ]        
+
+        SubDepictionGenerators = [ SubGenerators_KA52_RU ]
+)
+
 Op_RAFALE_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
     Anchors = 

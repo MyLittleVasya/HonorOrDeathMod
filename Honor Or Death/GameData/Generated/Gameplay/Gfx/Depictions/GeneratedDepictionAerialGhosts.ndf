@@ -1,6 +1,11 @@
 // Ne pas éditer, ce fichier est généré par DepictionAerialGhostsFileWriter
 
 
+GhostDepiction_KA52_RU is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_KA52_RU
+    Selector = SpecificHelicoDepictionSelector
+)
 
 GhostDepiction_RAFALE_FR is GhostAerialDepictionTemplate
 (
@@ -1585,7 +1590,9 @@ GhostDepiction_UH60A_Supply_US is GhostAerialDepictionTemplate
     Selector = SpecificHelicoDepictionSelector
 )
 AerialMimeticGhost is MAP[
+    
   ( 'RAFALE_FR', GhostDepiction_RAFALE_FR ),
+  ( 'KA52_RU', GhostDepiction_KA52_RU ),
   ( 'F35A_US', GhostDepiction_F35A_US ),
   ( 'SHARK_UAV_UKR', GhostDepiction_SHARK_UAV_UKR ),
   ( 'A109BA_BEL', GhostDepiction_A109BA_BEL ),

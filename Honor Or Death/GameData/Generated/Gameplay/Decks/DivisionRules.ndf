@@ -171,7 +171,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_24K_reco_SOV
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
                     TDeckUniteRule
@@ -8504,7 +8504,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_24K_reco_SOV
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
                     TDeckUniteRule
@@ -9534,7 +9534,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_24K_reco_SOV
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
                     TDeckUniteRule
@@ -9557,6 +9557,13 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 1
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_KA52_RU
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
                     TDeckUniteRule
                     (
@@ -10923,7 +10930,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_DShV_SOV
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_Mi_2_trans_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_non_arme_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8MTV_SOV]
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_BMD4_RU, $/GFX/Unit/Descriptor_Unit_Mi_2_trans_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_non_arme_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8MTV_SOV]
                         NumberOfUnitInPack = 7
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
                     ),
@@ -11123,7 +11130,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_24K_reco_SOV
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
                     TDeckUniteRule
@@ -12716,7 +12723,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_24K_reco_SOV
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
                     TDeckUniteRule

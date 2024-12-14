@@ -1,6 +1,32 @@
 // Ne pas éditer, ce fichier est généré par DepictionAerialUnitsFileWriter_Specific_Showroom
 
 
+
+Gfx_KA52_RU_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_KA52_RU
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_KA52_RU,
+    ]
+)
+
 Gfx_RAFALE_FR_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_RAFALE_FR
