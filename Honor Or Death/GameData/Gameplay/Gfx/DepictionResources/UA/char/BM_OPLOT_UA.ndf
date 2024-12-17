@@ -1,14 +1,14 @@
-export Modele_BM_OPLOT_UA is ModelDescriptor
+export Modele_BM_OPLOT_UA is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/OPLOT/oplot.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/OPLOT/oplot.fbx'
 )
 
-export Modele_BM_OPLOT_UA_MID is ModelDescriptor
+export Modele_BM_OPLOT_UA_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/OPLOT/oplot.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/OPLOT/oplot.fbx'
 )
 
-export Modele_BM_OPLOT_UA_LOW is ModelDescriptor
+export Modele_BM_OPLOT_UA_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/OPLOT/oplot.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/OPLOT/oplot.fbx'
 )

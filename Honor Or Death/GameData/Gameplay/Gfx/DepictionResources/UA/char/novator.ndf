@@ -1,14 +1,14 @@
-export Modele_NOVATOR_STUGNA_UKR is ModelDescriptor
+export Modele_NOVATOR_STUGNA_UKR is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
 )
 
-export Modele_NOVATOR_STUGNA_UKR_MID is ModelDescriptor
+export Modele_NOVATOR_STUGNA_UKR_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
 )
 
-export Modele_NOVATOR_STUGNA_UKR_LOW is ModelDescriptor
+export Modele_NOVATOR_STUGNA_UKR_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/novator/novator.fbx'
 )

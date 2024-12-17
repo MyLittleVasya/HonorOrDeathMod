@@ -1,14 +1,14 @@
-export Modele_BTR_4_UA is ModelDescriptor
+export Modele_BTR_4_UA is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
 )
 
-export Modele_BTR_4_UA_MID is ModelDescriptor
+export Modele_BTR_4_UA_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
 )
 
-export Modele_BTR_4_UA_LOW is ModelDescriptor
+export Modele_BTR_4_UA_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/BTR_4/btr4.fbx'
 )

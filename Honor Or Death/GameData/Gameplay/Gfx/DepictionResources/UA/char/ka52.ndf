@@ -1,14 +1,14 @@
-export Modele_KA52_RU is ModelDescriptor
+export Modele_KA52_RU is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/ka52/ka52.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/RU/ka52/ka52.fbx'
 )
 
-export Modele_KA52_RU_MID is ModelDescriptor
+export Modele_KA52_RU_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/ka52/ka52.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/RU/ka52/ka52.fbx'
 )
 
-export Modele_KA52_RU_LOW is ModelDescriptor
+export Modele_KA52_RU_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/ka52/ka52.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/RU/ka52/ka52.fbx'
 )

@@ -1,14 +1,14 @@
-export Modele_VARTA_UKR is ModelDescriptor
+export Modele_VARTA_UKR is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/varta/vartaexport/varta.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/varta/vartaexport/varta.fbx'
 )
 
-export Modele_VARTA_UKR_MID is ModelDescriptor
+export Modele_VARTA_UKR_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/varta/vartaexport/varta.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/varta/vartaexport/varta.fbx'
 )
 
-export Modele_VARTA_UKR_LOW is ModelDescriptor
+export Modele_VARTA_UKR_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/varta/vartaexport/varta.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/varta/vartaexport/varta.fbx'
 )

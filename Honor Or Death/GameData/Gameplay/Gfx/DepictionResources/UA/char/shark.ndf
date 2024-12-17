@@ -1,19 +1,19 @@
-export Modele_SHARK_UAV_UKR is ModelDescriptor
+export Modele_SHARK_UAV_UKR is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/shark/shark.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/shark/shark.fbx'
 )
 
-export Modele_SHARK_UAV_UKR_MID is ModelDescriptor
+export Modele_SHARK_UAV_UKR_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/shark/shark.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/shark/shark.fbx'
 )
 
-export Modele_SHARK_UAV_UKR_LOW is ModelDescriptor
+export Modele_SHARK_UAV_UKR_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/shark/shark.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/shark/shark.fbx'
 )
 
-export Modele_SHARK_UAV_UKR_train is ModelDescriptor
+export Modele_SHARK_UAV_UKR_train is TResourceMesh
 (
-    FileName = ModelFile_Support_Drones
+    Mesh = ModelFile_Support_Drones
 )

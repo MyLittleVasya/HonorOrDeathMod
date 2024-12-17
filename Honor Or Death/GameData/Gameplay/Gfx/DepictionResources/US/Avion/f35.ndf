@@ -1,19 +1,19 @@
-export Modele_F35A_US is ModelDescriptor
+export Modele_F35A_US is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/US/f35/f35.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/US/f35/f35.fbx'
 )
 
-export Modele_F35A_US_MID is ModelDescriptor
+export Modele_F35A_US_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/US/f35/f35.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/US/f35/f35.fbx'
 )
 
-export Modele_F35A_US_LOW is ModelDescriptor
+export Modele_F35A_US_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/US/f35/f35.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/US/f35/f35.fbx'
 )
 
-export Modele_F35A_US_train is ModelDescriptor
+export Modele_F35A_US_train is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/US/f35/f35train.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/US/f35/f35train.fbx'
 )

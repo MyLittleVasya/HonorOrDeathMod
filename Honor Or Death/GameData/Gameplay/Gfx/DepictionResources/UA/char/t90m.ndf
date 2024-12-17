@@ -1,14 +1,14 @@
-export Modele_T90M_RU is ModelDescriptor
+export Modele_T90M_RU is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/t90m/t90m.fbx'//GameData:/Assets/3D/Units/RU/sprut/sprut.fbx
+    Mesh = 'GameData:/Assets/3D/Units/RU/t90m/t90m.fbx'//GameData:/Assets/3D/Units/RU/sprut/sprut.fbx
 )
 
-export Modele_T90M_RU_MID is ModelDescriptor
+export Modele_T90M_RU_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/t90m/t90m.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/RU/t90m/t90m.fbx'
 )
 
-export Modele_T90M_RU_LOW is ModelDescriptor
+export Modele_T90M_RU_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/t90m/t90m.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/RU/t90m/t90m.fbx'
 )

@@ -1,14 +1,14 @@
-export Modele_TEST is ModelDescriptor
+export Modele_TEST is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/test/test.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/test/test.fbx'
 )
 
-export Modele_TEST_MID is ModelDescriptor
+export Modele_TEST_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/test/test.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/test/test.fbx'
 )
 
-export Modele_TEST_LOW is ModelDescriptor
+export Modele_TEST_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/test/test.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/test/test.fbx'
 )

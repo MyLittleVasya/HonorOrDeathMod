@@ -1,15 +1,15 @@
 
-export Modele_BMD4_RU is ModelDescriptor
+export Modele_BMD4_RU is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
 )
 
-export Modele_BMD4_RU_MID is ModelDescriptor
+export Modele_BMD4_RU_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
 )
 
-export Modele_BMD4_RU_LOW is ModelDescriptor
+export Modele_BMD4_RU_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/RU/bmd4/bmd4.fbx'
 )

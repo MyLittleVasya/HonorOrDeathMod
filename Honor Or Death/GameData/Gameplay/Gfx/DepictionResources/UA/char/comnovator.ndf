@@ -1,14 +1,14 @@
-export Modele_NOVATOR_CMD_UKR is ModelDescriptor
+export Modele_NOVATOR_CMD_UKR is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
 )
 
-export Modele_NOVATOR_CMD_UKR_MID is ModelDescriptor
+export Modele_NOVATOR_CMD_UKR_MID is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
 )
 
-export Modele_NOVATOR_CMD_UKR_LOW is ModelDescriptor
+export Modele_NOVATOR_CMD_UKR_LOW is TResourceMesh
 (
-    FileName = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/novator/comnovator.fbx'
 )
