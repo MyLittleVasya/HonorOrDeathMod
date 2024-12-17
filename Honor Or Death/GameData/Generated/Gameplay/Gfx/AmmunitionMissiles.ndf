@@ -379,7 +379,7 @@ Ammo_Bomb_JDAM32 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 80
+    SupplyCost = 160
     NbSalvosShootOnPosition = 1
     CanShootOnPosition = True
     CanShootWhileMoving = True
@@ -461,7 +461,7 @@ Ammo_STORM_SHADOW is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 175
+    SupplyCost = 300
     CanShootOnPosition = True
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1

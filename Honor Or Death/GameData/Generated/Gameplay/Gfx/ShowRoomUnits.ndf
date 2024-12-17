@@ -1,5 +1,41 @@
 // Ne pas éditer, ce fichier est généré par ShowRoomUnitDescriptorFileWriter
 
+export Descriptor_ShowRoomUnit_T90M_RU is TEntityDescriptor
+(
+    DescriptorId        = GUID:{zd5baa21-557d-z153-9baa-12d39412761a}
+    ClassNameForDebug   = "ShowRoomUnit_T90M_RU"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = ~/Gfx_T90M_RU_Showroom_Autogen
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_T90M_RU
+        ),
+        $/GFX/Weapon/WeaponDescriptor_T90M_RU,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
+        ),
+    ]
+)
 
 export Descriptor_ShowRoomUnit_KA52_RU is TEntityDescriptor
 (

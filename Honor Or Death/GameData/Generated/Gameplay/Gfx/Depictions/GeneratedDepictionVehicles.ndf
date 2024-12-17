@@ -1,5 +1,47 @@
 // Ne pas éditer, ce fichier est généré par DepictionVehiclesFileWriter_Specific
 
+Gfx_T90M_RU_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'T90M_RU'
+    Selector = Selector_T90M_RU
+    Alternatives = Alternatives_T90M_RU
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_T80,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_HeavyTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_BM_OPLOT_UA_Weapon1,
+        DepictionOperator_BM_OPLOT_UA_Weapon2,
+        DepictionOperator_BM_OPLOT_UA_Weapon4,
+        DepictionOperator_BM_OPLOT_UA_Weapon5,
+        DepictionOperator_BM_OPLOT_UA_Weapon6,
+        DepictionOperator_Heat,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A46M_late_T80UD ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A46M_late_T80UD ),
+                ( [ "weapon_effet_tag4" ], Weapon_HMG_12_7_mm_NSVT ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_PKT_7_62mm ),
+                ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+)
 
 Gfx_BMD4_RU_Autogen is TacticVehicleDepictionTemplate
 (

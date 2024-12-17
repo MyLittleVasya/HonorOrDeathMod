@@ -1505,5 +1505,6 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_M270_ATACMS_cluster_US, 3022),
         ($/GFX/Unit/Descriptor_Unit_BMD4_RU, 3023),
         ($/GFX/Unit/Descriptor_Unit_KA52_RU, 3024),
+        ($/GFX/Unit/Descriptor_Unit_T90M_RU, 3025),
     ]
 )

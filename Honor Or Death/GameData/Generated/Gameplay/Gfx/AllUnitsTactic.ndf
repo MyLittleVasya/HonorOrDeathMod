@@ -2,6 +2,7 @@
 
 AllUnitsTactic is [
     
+    $/GFX/Unit/Descriptor_Unit_T90M_RU,
     $/GFX/Unit/Descriptor_Unit_BMD4_RU,
     $/GFX/Unit/Descriptor_Unit_KA52_RU,
     $/GFX/Unit/Descriptor_Unit_M270_ATACMS_cluster_US,

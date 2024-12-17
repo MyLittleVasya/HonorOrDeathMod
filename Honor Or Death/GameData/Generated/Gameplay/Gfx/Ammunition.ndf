@@ -495,7 +495,7 @@ Ammo_Canon_AP_125_mm_KBA_3 is TAmmunitionDescriptor
     TraitsToken                       = [ 'autoloader', 'HE', 'KINETIC', ]
     WeaponCursorType                  = Weapon_Cursor_Canon
     MinMaxCategory                    = MinMax_CanonAP
-    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap Index=32)
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap Index=33)
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'CanonGrosAPFDST80' ]
     FxPower                           = EFXPower/Moyen
@@ -15632,7 +15632,7 @@ Ammo_Canon_HE_100mm_2A29_Rapira is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{7f54cf15-58ef-4329-aee2-9b868202b082}
@@ -15714,7 +15714,7 @@ Ammo_Canon_HE_100mm_2A70 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{d80f7b0b-4151-4923-a9c1-b2b4a8e8fe8c}
@@ -15796,7 +15796,7 @@ Ammo_Canon_HE_100mm_D10S is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{14917f40-ac9c-4c16-8654-d62d19c0520f}
@@ -15878,7 +15878,7 @@ Ammo_Canon_HE_100mm_D10T_Merida is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{98248679-2eac-443d-a447-b2fc6849a13b}
@@ -15960,7 +15960,7 @@ Ammo_Canon_HE_100mm_D10T_early is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{44274a5f-d63a-4d5e-88a7-3720146191fe}
@@ -16042,7 +16042,7 @@ Ammo_Canon_HE_100mm_D10T_late is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c2309a68-eef7-483c-a573-9cffd3fd05af}
@@ -16124,7 +16124,7 @@ Ammo_Canon_HE_105mm_CN105 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{385d90ad-9a3b-436d-ba9c-e973427a4c7e}
@@ -16206,7 +16206,7 @@ Ammo_Canon_HE_105mm_CN_105_F1 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{0080568f-462e-46b0-9e50-1d844cf30ed2}
@@ -16288,7 +16288,7 @@ Ammo_Canon_HE_105mm_CN_105_F1_BRENNUS is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{0d9db8f6-e8e5-4008-b425-b4045edbcbdd}
@@ -16370,7 +16370,7 @@ Ammo_Canon_HE_105mm_CN_105_F1_ESP is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c72153fa-89c6-405b-a1a6-0bc01d19c49a}
@@ -16452,7 +16452,7 @@ Ammo_Canon_HE_105mm_F2_BK_MECA_L48 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{4514a88b-043d-4205-b977-d6bfa0c95a8d}
@@ -16534,7 +16534,7 @@ Ammo_Canon_HE_105mm_L7_Centurion is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{4734713f-22f9-46e0-89b2-55e6867e6bc5}
@@ -16616,7 +16616,7 @@ Ammo_Canon_HE_105mm_L7_Centurion_AVRE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{6f37db9e-334a-4a95-b58c-e62942a2131a}
@@ -16698,7 +16698,7 @@ Ammo_Canon_HE_105mm_L7A3 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c73ba23f-f383-4d33-a9f9-9e7951dc3450}
@@ -16780,7 +16780,7 @@ Ammo_Canon_HE_105mm_L7A3_BE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c469ba05-2016-4fe1-8914-674418a8dae4}
@@ -16862,7 +16862,7 @@ Ammo_Canon_HE_105mm_L7A3_Leo1A5 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{598f56c9-af21-48ed-a5f4-1ada54b792bb}
@@ -16944,7 +16944,7 @@ Ammo_Canon_HE_105mm_L7A3_Leo1A5_BE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{ee0057f6-6dc2-4933-850a-afb5aa1b06dd}
@@ -17026,7 +17026,7 @@ Ammo_Canon_HE_105mm_L7A3_Leo1V is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{d5105aa0-f05c-4c42-aafb-ce8ad31e3b18}
@@ -17108,7 +17108,7 @@ Ammo_Canon_HE_105mm_L7A3_M48 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c48b8e1f-7b81-426f-b1e3-7812dcac32f7}
@@ -17190,7 +17190,7 @@ Ammo_Canon_HE_105mm_M68 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{a6451d14-b0b8-4de0-af47-6addc2f051f3}
@@ -17272,7 +17272,7 @@ Ammo_Canon_HE_105mm_M68_M1 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{ef09459e-75ae-4e06-991f-4859bddece82}
@@ -17354,7 +17354,7 @@ Ammo_Canon_HE_105mm_M68_M48A5 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{3b318bbe-7700-4915-b28a-cb2034a36e83}
@@ -17436,7 +17436,7 @@ Ammo_Canon_HE_105mm_M68_late is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{0c4718ab-7102-47b3-b560-59ae04dc39e5}
@@ -17518,7 +17518,7 @@ Ammo_Canon_HE_105mmCN_105_F1_late is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{3a0fa594-9025-4598-8499-8b073ccaeb7c}
@@ -17600,7 +17600,7 @@ Ammo_Canon_HE_105mmCN_105_F1_late_ESP is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{0f317d43-b76c-4878-9a72-f722def0987c}
@@ -17682,7 +17682,7 @@ Ammo_Canon_HE_115mm_2A21 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{e6098f48-9105-4c08-9397-5a502f339fe2}
@@ -17764,7 +17764,7 @@ Ammo_Canon_HE_115mm_U5TS_T62M is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{a449825f-0624-441e-9393-67075a18baaa}
@@ -17845,7 +17845,7 @@ Ammo_Canon_HE_120_mm_L11A5_Challenger is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{2c914942-db7b-4183-b982-f5502bb5f65f}
@@ -17927,7 +17927,7 @@ Ammo_Canon_HE_120_mm_L11A5_Challenger_DU is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c720a6ae-aab1-4a84-8089-3fae825fd446}
@@ -18009,7 +18009,7 @@ Ammo_Canon_HE_120_mm_L11A5_Mk10 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{b603eb02-5517-49e4-9a18-19a33690e963}
@@ -18090,7 +18090,7 @@ Ammo_Canon_HE_120_mm_L11A5_Mk6 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{5836ac9d-eb07-4e7e-8abc-b1dda7f7b48b}
@@ -18171,7 +18171,7 @@ Ammo_Canon_HE_120_mm_L11A5_Mk8 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{694820bc-35ab-4784-9540-3927b1fc4bc4}
@@ -18252,7 +18252,7 @@ Ammo_Canon_HE_120_mm_L11A5_Mk9 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{2135c163-691a-4791-b9cf-06a1fabafb33}
@@ -18333,7 +18333,7 @@ Ammo_Canon_HE_120_mm_L44 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{42678148-821a-4162-beb8-19216449a25b}
@@ -18415,7 +18415,7 @@ Ammo_Canon_HE_120_mm_L52_M68 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{b1e9a949-da96-4923-bac6-61812f794c82}
@@ -18497,7 +18497,7 @@ Ammo_Canon_HE_120mm_L44_late is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{d8a76a5b-c492-4ef3-b47d-182d4b9dffa0}
@@ -18579,7 +18579,7 @@ Ammo_Canon_HE_120mm_L44_late_2A4 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{5292dfbc-ce92-4bbf-aba8-477289bb9235}
@@ -18661,7 +18661,7 @@ Ammo_Canon_HE_122mm_2A17 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{33353b12-55e2-418f-9cda-a267def4994e}
@@ -18743,7 +18743,7 @@ Ammo_Canon_HE_122mm_D25T is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{6bc1a633-9d0c-4eda-8ea6-37f2a89b7a87}
@@ -18825,7 +18825,7 @@ Ammo_Canon_HE_125_mm_2A26_Wilk is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{54916c48-9eff-40f5-9ce7-ebfb37f7a97d}
@@ -18907,7 +18907,7 @@ Ammo_Canon_HE_125_mm_2A46 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c13c41c7-c548-4aa2-a6eb-b1afea1f48d9}
@@ -18989,7 +18989,7 @@ Ammo_Canon_HE_125_mm_2A46_T64A is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{9a9df7de-21fd-4759-a1d0-244c671156c2}
@@ -19071,7 +19071,7 @@ Ammo_Canon_HE_125_mm_2A46_T64B_very_late is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c27c9a11-fdc3-4fb7-a6e5-8ce012efbb69}
@@ -19153,7 +19153,7 @@ Ammo_Canon_HE_125_mm_2A46_T72M is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{541bf4b8-7ffd-4dcb-a44c-52671e9f0b52}
@@ -19235,7 +19235,7 @@ Ammo_Canon_HE_125_mm_2A46_T72M2 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{7bbf53c8-a76e-4ae5-b264-ae62a48e4a2f}
@@ -19317,7 +19317,7 @@ Ammo_Canon_HE_125_mm_2A46M is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{1b063153-2e39-4a6d-b6b7-06179687005a}
@@ -19399,7 +19399,7 @@ Ammo_Canon_HE_125_mm_2A46M_T80B is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{447afe7d-7e08-47b7-a21e-e8836a1c2ac2}
@@ -19481,7 +19481,7 @@ Ammo_Canon_HE_125_mm_2A46M_late is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{4a52c4ba-a9f1-423b-bc03-72714f579cc1}
@@ -19563,7 +19563,7 @@ Ammo_Canon_HE_125_mm_2A46M_late_T80UD is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{cbe94f2c-1482-49d7-9599-87e3190d9897}
@@ -19645,7 +19645,7 @@ Ammo_Canon_HE_125_mm_2A46M1 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{1075051e-7535-44e2-bc28-4098f3387b57}
@@ -19727,7 +19727,7 @@ Ammo_Canon_HE_125_mm_2A46_2 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{27a88237-47da-423b-a8cf-387902b08537}
@@ -19809,7 +19809,7 @@ Ammo_Canon_HE_125mm_2A45_Sprut is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{24d33ba8-035f-4125-9902-726a03635a09}
@@ -19891,7 +19891,7 @@ Ammo_Canon_HE_142mm_AVRE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{ab8f9c1f-e1f2-4d70-ac7f-e102d94b52e6}
@@ -19973,7 +19973,7 @@ Ammo_Canon_HE_152mm_Sheridan is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{31a622a9-5ca5-41a9-8182-bf58b639a74b}
@@ -20055,7 +20055,7 @@ Ammo_Canon_HE_165mm_AVRE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{14952448-dde5-4fa1-b163-efa290bad74d}
@@ -20137,7 +20137,7 @@ Ammo_Canon_HE_165mm_AVRE_L9A1 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{fed3d109-489b-44be-aff5-262486c2e092}
@@ -20219,7 +20219,7 @@ Ammo_Canon_HE_60mm_CM60A1 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{0916826a-f64f-4e7d-96bd-6754fe1e4dd0}
@@ -20301,7 +20301,7 @@ Ammo_Canon_HE_73_mm_2A28_Grom is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{1d45b4b3-d515-4fff-84a7-c82b57adddc9}
@@ -20383,7 +20383,7 @@ Ammo_Canon_HE_73_mm_SPG9 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{225e2dbc-6b1e-4341-be92-7d40bd7c8b57}
@@ -20464,7 +20464,7 @@ Ammo_Canon_HE_73_mm_SPG9_TOWED is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{9badb2d1-6bdc-4793-a1ec-176bcf6bc8de}
@@ -20545,7 +20545,7 @@ Ammo_Canon_HE_75mm_SA_50 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{ccdcfb14-0d09-4b5b-b9e9-4343043e6023}
@@ -20627,7 +20627,7 @@ Ammo_Canon_HE_76mm_D56T is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{5a5c076a-0be2-4952-92e8-8f9bda5ead1a}
@@ -20709,7 +20709,7 @@ Ammo_Canon_HE_76mm_L23A1 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{0ed96390-1f92-42b7-a966-1a5230236824}
@@ -20791,7 +20791,7 @@ Ammo_Canon_HE_76mm_L5A1 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{65590643-db8b-40f5-a310-8006582c8886}
@@ -20873,7 +20873,7 @@ Ammo_Canon_HE_76mm_M32A1_Walker is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{7b18d76b-2c84-4a45-9dbb-682b28ddcd8d}
@@ -20955,7 +20955,7 @@ Ammo_Canon_HE_85mm_ASU is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{6d89eae3-3e92-45d9-a6cc-5377704984b0}
@@ -21037,7 +21037,7 @@ Ammo_Canon_HE_85mm_D44 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{69d50ce6-42d2-4302-af13-8fbff316b480}
@@ -21118,7 +21118,7 @@ Ammo_Canon_HE_85mm_D48 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{6ae4474b-d188-4dc3-98ea-9fbd0be1dd3d}
@@ -21199,7 +21199,7 @@ Ammo_Canon_HE_85mm_K52 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{74730490-4a84-4f65-a436-d2837f8b57c4}
@@ -21281,7 +21281,7 @@ Ammo_Canon_HE_85mm_S53 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{77e580ba-1569-4177-87ca-fd826c23b215}
@@ -21363,7 +21363,7 @@ Ammo_Canon_HE_85mm_Vz52 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{811bd570-dd2e-4e87-89bf-60980a70c5fe}
@@ -21444,7 +21444,7 @@ Ammo_Canon_HE_90_mm__F3 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{8fd1f236-c1af-4c38-9dbe-b23c02f6f172}
@@ -21526,7 +21526,7 @@ Ammo_Canon_HE_90_mm_GIAT_F1 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{aab4ebda-68bf-4c7a-b8fe-ea6f47e876d6}
@@ -21608,7 +21608,7 @@ Ammo_Canon_HE_90mm_CN90_F2 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{fec44b70-3cd8-4414-b078-38fe7b140dc6}
@@ -21690,7 +21690,7 @@ Ammo_Canon_HE_90mm_CN90_F4 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{32693b8b-48fb-4d59-9ba1-65a263d7c918}
@@ -21772,7 +21772,7 @@ Ammo_Canon_HE_90mm_M36 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{b334c487-7f44-4e52-92a1-ca5c3b4b0583}
@@ -21854,7 +21854,7 @@ Ammo_Canon_HE_90mm_M47 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{6d07bfeb-b844-4138-8816-6dcfeba30018}
@@ -21936,7 +21936,7 @@ Ammo_Canon_HE_90mm_M48 is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{18b6bf8b-3cb5-4536-896c-a7b73371f442}
@@ -22018,7 +22018,7 @@ Ammo_Canon_HE_90mm_M48_KanJPz is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{e04e9cf6-5420-4801-8ca5-8bebe2f8207f}
@@ -22100,7 +22100,7 @@ Ammo_Canon_HE_90mm_M48_KanJPz_late is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{b04f398e-6dd1-4e64-a320-2f9b14b45144}
@@ -22182,7 +22182,7 @@ Ammo_Canon_HE_KS19_100mm is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{07debb24-122a-405d-9499-aedb04e9da9e}
@@ -22264,7 +22264,7 @@ Ammo_Canon_HE_KS30_130mm is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{116933f5-ce81-4e2c-bef5-114d7aba593a}
@@ -22346,7 +22346,7 @@ Ammo_Canon_HE_direct_2A51_120mm is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{bd810dcc-1fa7-4ded-a9ea-722d20ca843b}
@@ -36040,7 +36040,7 @@ Ammo_Howz_Canon_B4M_203mm_Direct_HE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{563f998d-ccf9-408d-95d2-d50ac1386cc2}
@@ -36447,7 +36447,7 @@ Ammo_Howz_Canon_Br5M_towed_280mm_Direct_HE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{232d8178-1d27-4020-b801-0ff36058e234}
@@ -42340,7 +42340,7 @@ Ammo_Howz_Canon_ML20S_towed_152mm_Direct_HE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c684a811-85fe-4be4-83af-96ae66d222cd}
@@ -63522,7 +63522,7 @@ Ammo_RocketInf_B11_RCL_107mm_HE_TOWED is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{2eea4767-5d3e-4425-865b-88124802809c}
@@ -64626,7 +64626,7 @@ Ammo_RocketInf_M40A1_RCL_106mm_HE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{17d210c2-8ecf-4ee1-95cb-3151af0cea87}
@@ -64706,7 +64706,7 @@ Ammo_RocketInf_M40A1_RCL_106mm_HE_TOWED is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{a5379171-8373-4ec7-9746-cd604ec4aa89}
@@ -66036,7 +66036,7 @@ Ammo_RocketInf_RPG29_RCL_105mm_HE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{f4782668-50ef-4258-83f6-d9e9034c8080}
@@ -67141,7 +67141,7 @@ Ammo_RocketInf_WOMBAT_RCL_120mm_HE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c40537ee-14be-43be-a326-0e384ce84e6e}
@@ -67221,7 +67221,7 @@ Ammo_RocketInf_WOMBAT_RCL_120mm_HE_TOWED is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{c3b7f14e-0e01-4698-bdc5-c492ff7342b5}
@@ -67537,7 +67537,7 @@ Ammo_RocketInf_Tarasnice_T21_RCL_82mm_HE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{8568006f-c770-4193-b821-1b86994850e1}
@@ -67772,7 +67772,7 @@ Ammo_RocketInf_Vz59_82mm_HE_TOWED is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{e86cd165-f304-48c2-8784-c03841a475a6}
@@ -67930,7 +67930,7 @@ Ammo_RocketInf_Vz59_82mm_HE is TAmmunitionDescriptor
     FluidFriction = 0.0
     NoiseDissimulationMalus = 2.2
     ShotsBeforeMaxNoise = 2
-    TargetOnlyOneUnitInDistrict = True
+    TargetOnlyOneUnitInDistrict = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
         DescriptorId = GUID:{b74e8aae-df50-4543-a862-8be79b3a3302}

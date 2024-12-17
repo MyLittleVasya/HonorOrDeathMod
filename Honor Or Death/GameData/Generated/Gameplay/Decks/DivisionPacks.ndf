@@ -5262,3 +5262,7 @@ Descriptor_Deck_Pack_KA52_RU is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_KA52_RU
 )
+Descriptor_Deck_Pack_T90M_RU is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_T90M_RU
+)

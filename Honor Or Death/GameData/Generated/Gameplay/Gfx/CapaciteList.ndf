@@ -280,8 +280,8 @@ export Capacite_Choc is TCapaciteDescriptor
     AreaShape               = ~/CapaciteAreaShape_circulaire
     InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    RadiusGRU               = 53
-    RangeGRU                = 175
+    RadiusGRU               = 100
+    RangeGRU                = 250
     CastTime                = 0.00
     Cooldown                = 1.00
     CheckVisibility         = True
