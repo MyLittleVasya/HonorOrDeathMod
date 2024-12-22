@@ -6,6 +6,103 @@ eMountingMissile is 0
 eMountingPod     is 1
 eMountingBomb    is 2
 
+
+
+export MissileCarriage_SU34_RU is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAAM
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 3
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAAM
+            WeaponIndex = 4
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 1
+            MissileType = eAGM
+            WeaponIndex = 5
+        ),
+    ]
+)
+
+export MissileCarriage_SU34_RU_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAAM
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 3
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAAM
+            WeaponIndex = 4
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 1
+            MissileType = eAGM
+            WeaponIndex = 5
+        ),
+    ]
+)
+
+export MissileCarriage_PATRIOT_US is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_PATRIOT_US
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 3
+            MissileType = eAAM
+            WeaponIndex = 1
+        ),
+    ]
+)
+export MissileCarriage_PATRIOT_US_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_PATRIOT_US
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 3
+            MissileType = eAAM
+            WeaponIndex = 1
+        ),
+    ]
+)
+
 export MissileCarriage_KA52_RU is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_KA52_RU

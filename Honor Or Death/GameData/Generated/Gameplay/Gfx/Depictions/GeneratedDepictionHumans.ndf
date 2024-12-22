@@ -1,4 +1,30 @@
 // Ne pas éditer, ce fichier est généré par DepictionHumanSubDepictionsFileWriter
+
+
+HumanSubDepictions_PATRIOT_US is 
+[
+    SubDepiction_ServantLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Grunt_UKR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_BEL_LOW
+    ),
+    SubDepiction_ServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Grunt_UKR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_BEL_LOW
+    ),
+]
+HumanSubDepictionsShowroom_PATRIOT_US is 
+[
+    ShowroomSubDepiction_ServantLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Grunt_UKR
+    ),
+    ShowroomSubDepiction_ServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Grunt_UKR
+    ),
+]
 HumanSubDepictions_Mortier_120mm_UKR is 
 [
     SubDepiction_ATGMServantLeft

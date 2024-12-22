@@ -1,0 +1,16 @@
+export Modele_M983_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/patriot/truck.fbx'
+)
+
+
+export Modele_M983_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/patriot/truck.fbx'
+)
+
+export Modele_M983_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/patriot/truck.fbx'
+)
+

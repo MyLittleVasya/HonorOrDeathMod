@@ -6,8 +6,13 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
 (
     Textures = MAP
     [
+        
+        ("Texture_Button_Unit_SU34_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/su34.png"))]),
         ("Texture_Button_Unit_KA52_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/ka52.png"))]),
+        ("Texture_Button_Unit_PATRIOT_US", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/patriot.png"))]),
+        ("Texture_Button_Unit_M983_US", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/m983.png"))]),
         ("Texture_Button_Unit_T90M_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/t90m.png"))]),
+        ("Texture_Button_Unit_Sprut_SDM1_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/sprut.png"))]),
         ("Texture_Button_Unit_RAFALE_FR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/rafale.png"))]),
         ("Texture_Button_Unit_BMD4_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/bmd4.png"))]),
         ("Texture_Button_Unit_NOVATOR_CMD_UKR", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/comnovator.png"))]),

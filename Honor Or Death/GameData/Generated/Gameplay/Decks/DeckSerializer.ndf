@@ -2034,5 +2034,10 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_BMD4_RU, 3023),
         ($/GFX/Unit/Descriptor_Unit_KA52_RU, 3024),
         ($/GFX/Unit/Descriptor_Unit_T90M_RU, 3025),
+        ($/GFX/Unit/Descriptor_Unit_Sprut_SDM1_RU, 3026),
+        ($/GFX/Unit/Descriptor_Unit_PATRIOT_US, 3027),
+        ($/GFX/Unit/Descriptor_Unit_M983_US, 3028),
+        ($/GFX/Unit/Descriptor_Unit_SU34_RU, 3029),
+        
     ]
 )

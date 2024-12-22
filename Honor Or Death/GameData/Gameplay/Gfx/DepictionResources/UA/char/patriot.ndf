@@ -1,0 +1,20 @@
+export Modele_PATRIOT_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/patriot/patriot.fbx'
+)
+
+export Modele_PATRIOT_US_tow is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/patriot/patriot_towable.fbx'
+)
+
+export Modele_PATRIOT_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/patriot/patriot.fbx'
+)
+
+export Modele_PATRIOT_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/patriot/patriot.fbx'
+)
+

@@ -4,6 +4,9 @@
 SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
 (
     Alternatives = [
+        TDepictionDescriptor(SelectorId = [LOD_High, 'PATRIOT_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_PATRIOT_US_tow),
+        TDepictionDescriptor(SelectorId = [LOD_Mid, 'PATRIOT_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_PATRIOT_US_MID ),
+        TDepictionDescriptor(SelectorId = [LOD_Low, 'PATRIOT_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_PATRIOT_US_LOW ),
         TDepictionDescriptor(SelectorId = [LOD_High, 'AT_2A45_SprutB_SOV'] MeshDescriptor = $/GFX/DepictionResources/Modele_AT_2A45_SprutB_SOV ),
         TDepictionDescriptor(SelectorId = [LOD_Mid, 'AT_2A45_SprutB_SOV'] MeshDescriptor = $/GFX/DepictionResources/Modele_AT_2A45_SprutB_SOV_MID ),
         TDepictionDescriptor(SelectorId = [LOD_Low, 'AT_2A45_SprutB_SOV'] MeshDescriptor = $/GFX/DepictionResources/Modele_AT_2A45_SprutB_SOV_LOW ),
@@ -246,6 +249,8 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
         TDepictionDescriptor(SelectorId = [LOD_Low, 'Obusier_155mm_mle1950_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_Obusier_155mm_mle1950_FR_LOW ),
     ]
     InitialPoses = MAP[
+        
+        ('PATRIOT_US', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_PATRIOT_US_tow Angle = 0.0 )),
         ('AT_2A45_SprutB_SOV', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_AT_2A45_SprutB_SOV Angle = 0.6981317007977318 )),
         ('AT_D44_85mm_DDR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_AT_D44_85mm_DDR Angle = 0.3490658503988659 )),
         ('AT_D44_85mm_POL', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_AT_D44_85mm_POL Angle = 0.3490658503988659 )),
@@ -330,6 +335,7 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
     MissileAlternatives = []                        + MissileAlternatives_DCA_I_Hawk_BEL
                         + MissileAlternatives_DCA_I_Hawk_NL
                         + MissileAlternatives_DCA_I_Hawk_RFA
+                        + MissileAlternatives_PATRIOT_US
                         + MissileAlternatives_DCA_I_Hawk_US
                         + MissileAlternatives_DCA_I_Hawk_capture_DDR
                         + MissileAlternatives_DCA_Rapier_Darkfire_UK
@@ -340,6 +346,7 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
         'DCA_I_Hawk_BEL',
         'DCA_I_Hawk_NL',
         'DCA_I_Hawk_RFA',
+        'PATRIOT_US',
         'DCA_I_Hawk_US',
         'DCA_I_Hawk_capture_DDR',
         'DCA_Rapier_Darkfire_UK',

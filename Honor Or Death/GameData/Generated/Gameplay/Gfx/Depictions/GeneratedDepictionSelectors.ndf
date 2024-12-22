@@ -1,5 +1,8 @@
 // Ne pas éditer, ce fichier est généré par DepictionSelectorsFileWriter
 
+Selector_M983_US is SpecificVehicleDepictionSelector
+Selector_PATRIOT_US is SpecificVehicleDepictionSelector
+Selector_Sprut_SDM1_RU is SpecificVehicleDepictionSelector
 Selector_T90M_RU is SpecificVehicleDepictionSelector
 Selector_BMD4_RU is SpecificVehicleDepictionSelector
 Selector_NOVATOR_CMD_UKR is SpecificVehicleDepictionSelector

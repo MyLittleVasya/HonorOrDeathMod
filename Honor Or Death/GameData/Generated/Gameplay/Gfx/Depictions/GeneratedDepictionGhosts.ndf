@@ -2,6 +2,21 @@
 
 
 
+GhostDepiction_M983_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M983_US
+    Alternatives = Alternatives_M983_US
+)
+GhostDepiction_PATRIOT_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_PATRIOT_US
+    Alternatives = Alternatives_PATRIOT_US
+)
+GhostDepiction_Sprut_SDM1_RU is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_Sprut_SDM1_RU
+    Alternatives = Alternatives_Sprut_SDM1_RU
+)
 GhostDepiction_T90M_RU is GhostVehicleDepictionTemplate
 (
     Selector = Selector_T90M_RU

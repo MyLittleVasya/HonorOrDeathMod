@@ -1,6 +1,12 @@
 // Ne pas éditer, ce fichier est généré par DepictionAerialGhostsFileWriter
 
 
+GhostDepiction_SU34_RU is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_SU34_RU
+    Selector = SpecificAirplaneDepictionSelector
+)
+
 GhostDepiction_KA52_RU is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_KA52_RU

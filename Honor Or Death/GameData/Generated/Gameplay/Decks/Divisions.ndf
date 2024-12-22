@@ -34,7 +34,8 @@ Descriptor_Deck_Division_UKR_3otb_multi is TDeckDivisionDescriptor
         
         (~/Descriptor_Deck_Pack_MTLB_Strela10_SOV, 1),
         (~/Descriptor_Deck_Pack_MANPAD_Igla_UKR, 1),
-        (~/Descriptor_Deck_Pack_Gepard_1A2_RFA, 2),
+        (~/Descriptor_Deck_Pack_Gepard_1A2_RFA, 1),
+        (~/Descriptor_Deck_Pack_Osa_9K33M3_SOV, 1),
         
         
         (~/Descriptor_Deck_Pack_Mi_24K_reco_SOV, 2),
@@ -1337,6 +1338,7 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_ATteam_Milan_1_RFA, 1),
+        (~/Descriptor_Deck_Pack_PATRIOT_US, 1),
         (~/Descriptor_Deck_Pack_ATteam_Milan_2_RFA, 1),
         (~/Descriptor_Deck_Pack_ATteam_RCL_M40A1_RFA, 1),
         (~/Descriptor_Deck_Pack_Alouette_II_reco_RFA, 1),
@@ -1741,6 +1743,8 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_HvyScout_DShV_SOV, 1),
         (~/Descriptor_Deck_Pack_Ka_50_AA_SOV, 1),
         (~/Descriptor_Deck_Pack_Ka_50_SOV, 2),
+        (~/Descriptor_Deck_Pack_SU34_RU, 1),
+        (~/Descriptor_Deck_Pack_Sprut_SDM1_RU, 3),
         (~/Descriptor_Deck_Pack_MANPAD_Igla_SOV, 1),
         (~/Descriptor_Deck_Pack_MANPAD_Igla_VDV_SOV, 2),
         (~/Descriptor_Deck_Pack_MTLB_Vasilek_SOV, 2),
@@ -2136,7 +2140,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
     PackList = MAP
     [
         
-         (~/Descriptor_Deck_Pack_T90M_RU, 2),
+        (~/Descriptor_Deck_Pack_T90M_RU, 2),
         (~/Descriptor_Deck_Pack_2K12_KUB_SOV, 2),
         (~/Descriptor_Deck_Pack_2S1_Gvozdika_SOV, 2),
         (~/Descriptor_Deck_Pack_2S3M_Akatsiya_SOV, 2),

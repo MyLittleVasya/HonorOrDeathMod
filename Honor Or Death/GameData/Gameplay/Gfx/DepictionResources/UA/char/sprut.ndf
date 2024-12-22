@@ -1,0 +1,14 @@
+export Modele_Sprut_SDM1_RU is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/RU/sprut/sprut.fbx'
+)
+
+export Modele_Sprut_SDM1_RU_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/RU/sprut/sprut.fbx'
+)
+
+export Modele_Sprut_SDM1_RU_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/RU/sprut/sprut.fbx'
+)

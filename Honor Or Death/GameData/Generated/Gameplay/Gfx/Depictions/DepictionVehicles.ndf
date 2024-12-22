@@ -1,5 +1,113 @@
 // Ne pas éditer, ce fichier est généré par DepictionVehiclesFileWriter_Specific
 
+export Gfx_M983_US is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'M983_US'
+    Selector = Selector_M983_US
+    Alternatives = Alternatives_M983_US
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_LARS,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+        SubDepictionTowedUnit,
+    ]
+    //HumanSubDepictions_MAN_Kat_6x6_trans_RFA
+
+    //SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_M983_US) ]
+)
+
+export Gfx_PATRIOT_US is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'PATRIOT_US'
+    Selector = Selector_PATRIOT_US
+    Alternatives = Alternatives_PATRIOT_US
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_FR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_SAM_US,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_DCA_I_Hawk_BEL_Weapon1,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_SAM_I_Hawk_x3 ),
+            ]
+            + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [
+    ] + HumanSubDepictions_PATRIOT_US
+    
+    SubDepictionGenerators = [ SubGenerators_PATRIOT_US ]
+
+)
+
+export Gfx_Sprut_SDM1_RU is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Sprut_SDM1_RU'
+    Selector = Selector_Sprut_SDM1_RU
+    Alternatives = Alternatives_Sprut_SDM1_RU
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_T80,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_HeavyTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_BM_OPLOT_UA_Weapon1,
+        DepictionOperator_BM_OPLOT_UA_Weapon2,
+        DepictionOperator_BM_OPLOT_UA_Weapon4,
+        DepictionOperator_BM_OPLOT_UA_Weapon5,
+        DepictionOperator_BM_OPLOT_UA_Weapon6,
+        DepictionOperator_Heat,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A46M_late_T80UD ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A46M_late_T80UD ),
+                ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_PKT_7_62mm ),
+                ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+)
+
 export Gfx_T90M_RU is TacticVehicleDepictionTemplate
 (
     CoatingName = 'T90M_RU'

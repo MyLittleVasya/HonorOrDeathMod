@@ -7051,3 +7051,19 @@ Descriptor_Deck_Pack_T90M_RU is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_T90M_RU
 )
+Descriptor_Deck_Pack_Sprut_SDM1_RU is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_Sprut_SDM1_RU
+)
+Descriptor_Deck_Pack_PATRIOT_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_PATRIOT_US
+)
+Descriptor_Deck_Pack_M983_US is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_M983_US
+)
+Descriptor_Deck_Pack_SU34_RU is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_SU34_RU
+)

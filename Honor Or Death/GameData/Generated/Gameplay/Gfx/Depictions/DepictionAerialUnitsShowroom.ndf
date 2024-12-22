@@ -1,4 +1,21 @@
 // Ne pas éditer, ce fichier est généré par DepictionAerialUnitsFileWriter_Specific_Showroom
+
+export Gfx_SU34_RU_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_SU34_RU,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU_train
+        ),
+    ]
+)
+
 export Gfx_KA52_RU_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_KA52_RU

@@ -1,5 +1,23 @@
 // Ne pas éditer, ce fichier est généré par DepictionVehiclesFileWriter_Specific_Showroom
 
+
+export Gfx_M983_US_Showroom is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_M983_US
+    Selector = Selector_M983_US
+)
+
+export Gfx_PATRIOT_US_Showroom is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_PATRIOT_US
+    Selector = Selector_PATRIOT_US
+    SubDepictions = HumanSubDepictionsShowroom_PATRIOT_US
+)
+export Gfx_Sprut_SDM1_RU_Showroom is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_Sprut_SDM1_RU
+    Selector = Selector_Sprut_SDM1_RU
+)
 export Gfx_T90M_RU_Showroom is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_T90M_RU
