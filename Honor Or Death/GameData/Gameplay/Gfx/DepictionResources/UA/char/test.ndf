@@ -1,6 +1,6 @@
 export Modele_TEST is TResourceMesh
 (
-    Mesh = 'GameData:/Assets/3D/Units/UA/test/test.fbx'
+    Mesh = 'GameData:/Assets/3D/Units/UA/test/test.fbx'//change
 )
 
 export Modele_TEST_MID is TResourceMesh
