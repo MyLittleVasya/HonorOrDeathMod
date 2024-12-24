@@ -1,3 +1,4 @@
+
 Ammo_SAM_PATRIOT_US is TAmmunitionDescriptor
 (
     DescriptorId = GUID:{d6fa0909-d144-z797-b7da-00fac718734z}
@@ -323,14 +324,14 @@ Ammo_AGM_AGM88_HARM_DBF is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 20
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -341,10 +342,10 @@ Ammo_AGM_AGM88_HARM_DBF is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 11
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 110
+    PhysicalDamages = 10.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 41
+    RadiusSplashSuppressDamagesGRU = 123
     SuppressDamages = 367.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -377,7 +378,7 @@ Ammo_AGM_AGM88_HARM_DBF is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 15
+    SupplyCost = 50
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -505,7 +506,7 @@ Ammo_STORM_SHADOW is TAmmunitionDescriptor
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
     RadiusSplashPhysicalDamagesGRU = 150
-    PhysicalDamages = 6.5
+    PhysicalDamages = 15
     ShowDamageInUI = True
     RadiusSplashSuppressDamagesGRU = 75
     SuppressDamages = 500.0
@@ -539,11 +540,11 @@ Ammo_STORM_SHADOW is TAmmunitionDescriptor
     TempsEntreDeuxSalves = 10.0
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
-    NbTirParSalves = 3
-    SupplyCost = 300
+    NbTirParSalves = 1
+    SupplyCost = 100
     CanShootOnPosition = True
     CanShootWhileMoving = True
-    NbrProjectilesSimultanes = 3
+    NbrProjectilesSimultanes = 1
     AffichageMunitionParSalve = 1
     InterfaceWeaponTexture = "Texture_Interface_Weapon_STORM_SHADOW"
     SmokeDescriptor = nil
@@ -5357,14 +5358,14 @@ Ammo_AGM_AGM45_Shrike is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 20
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -5375,10 +5376,10 @@ Ammo_AGM_AGM45_Shrike is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 11
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 110.0
+    PhysicalDamages = 10.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 41
+    RadiusSplashSuppressDamagesGRU = 123.0
     SuppressDamages = 366.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -5411,7 +5412,7 @@ Ammo_AGM_AGM45_Shrike is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 15
+    SupplyCost = 75
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -5681,14 +5682,14 @@ Ammo_AGM_AGM88_HARM is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 20
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -5699,10 +5700,10 @@ Ammo_AGM_AGM88_HARM is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 11
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 110.0
+    PhysicalDamages = 10.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 41
+    RadiusSplashSuppressDamagesGRU = 123.0
     SuppressDamages = 367.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -5735,7 +5736,7 @@ Ammo_AGM_AGM88_HARM is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 15
+    SupplyCost = 100
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -5842,14 +5843,14 @@ Ammo_AGM_ALARM is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 20
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -5860,10 +5861,10 @@ Ammo_AGM_ALARM is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 11
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 110.0
+    PhysicalDamages = 10.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 41
+    RadiusSplashSuppressDamagesGRU = 123.0
     SuppressDamages = 251.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -5896,7 +5897,7 @@ Ammo_AGM_ALARM is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 15
+    SupplyCost = 100
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -5923,14 +5924,14 @@ Ammo_AGM_ARMAT is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 28
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -5941,10 +5942,10 @@ Ammo_AGM_ARMAT is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 14
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 140.0
+    PhysicalDamages = 14.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 51
+    RadiusSplashSuppressDamagesGRU = 153.0
     SuppressDamages = 441.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -5977,7 +5978,7 @@ Ammo_AGM_ARMAT is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 28
+    SupplyCost = 75
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -6324,14 +6325,14 @@ Ammo_AGM_AS37_Martel is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 30
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -6342,10 +6343,10 @@ Ammo_AGM_AS37_Martel is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 14
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 140.0
+    PhysicalDamages = 15.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 51
+    RadiusSplashSuppressDamagesGRU = 153.0
     SuppressDamages = 435.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -6378,7 +6379,7 @@ Ammo_AGM_AS37_Martel is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 28
+    SupplyCost = 75
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -6405,14 +6406,14 @@ Ammo_AGM_AS37_Martel_x2 is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 30
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -6423,10 +6424,10 @@ Ammo_AGM_AS37_Martel_x2 is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 14
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 140.0
+    PhysicalDamages = 15.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 51
+    RadiusSplashSuppressDamagesGRU = 153.0
     SuppressDamages = 435.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -6459,7 +6460,7 @@ Ammo_AGM_AS37_Martel_x2 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 2
-    SupplyCost = 56
+    SupplyCost = 75
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -7618,14 +7619,14 @@ Ammo_AGM_Kh25MP is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 30
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -7636,10 +7637,10 @@ Ammo_AGM_Kh25MP is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 16
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 160.0
+    PhysicalDamages = 15.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 51
+    RadiusSplashSuppressDamagesGRU = 153.0
     SuppressDamages = 390.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -7672,7 +7673,7 @@ Ammo_AGM_Kh25MP is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 30
+    SupplyCost = 75
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -7699,14 +7700,14 @@ Ammo_AGM_Kh25MPU is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 30
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -7717,10 +7718,10 @@ Ammo_AGM_Kh25MPU is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 16
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 160.0
+    PhysicalDamages = 15.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 51
+    RadiusSplashSuppressDamagesGRU = 153.0
     SuppressDamages = 390.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -7753,7 +7754,7 @@ Ammo_AGM_Kh25MPU is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 30
+    SupplyCost = 75
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -7779,14 +7780,14 @@ Ammo_AGM_Kh28_X28 is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 30
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -7797,10 +7798,10 @@ Ammo_AGM_Kh28_X28 is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 14
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 140.0
+    PhysicalDamages = 15.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 51
+    RadiusSplashSuppressDamagesGRU = 153.0
     SuppressDamages = 441.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -7833,7 +7834,7 @@ Ammo_AGM_Kh28_X28 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 28
+    SupplyCost = 75
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -8101,14 +8102,14 @@ Ammo_AGM_Kh31P is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 28
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -8119,10 +8120,10 @@ Ammo_AGM_Kh31P is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 14
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 140.0
+    PhysicalDamages = 14.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 51
+    RadiusSplashSuppressDamagesGRU = 153.0
     SuppressDamages = 388.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -8155,7 +8156,7 @@ Ammo_AGM_Kh31P is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 28
+    SupplyCost = 100
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
@@ -8181,14 +8182,14 @@ Ammo_AGM_Kh58U is TAmmunitionDescriptor
     WeaponDescriptionToken = 'PLUDJLKIDH'
     TraitsToken = ['MOTION', 'sead']
     WeaponCursorType = Weapon_Cursor_GroundMissile
-    MinMaxCategory = MinMax_SEAD
+    MinMaxCategory = MinMax_Bombe
     Arme = TDamageTypeRTTI
     (
-        Family = DamageFamily_ap_missile
-        Index = 28
+        Family = DamageFamily_howz_bombe
+        Index = 1
     )
     ProjectileType = EProjectileType/GuidedMissile
-    ImpactHappening = ['MissileAGMGros']
+    ImpactHappening = ['BombeMk82']
     FxPower = EFXPower/UltraLourd
     TempsEntreDeuxTirs = 2.0
     TempsEntreDeuxFx = 2.0
@@ -8199,10 +8200,10 @@ Ammo_AGM_Kh58U is TAmmunitionDescriptor
     DispersionAtMinRangeGRU = 9
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
-    RadiusSplashPhysicalDamagesGRU = 14
-    PhysicalDamages = 1.0
+    RadiusSplashPhysicalDamagesGRU = 140.0
+    PhysicalDamages = 14.0
     ShowDamageInUI = True
-    RadiusSplashSuppressDamagesGRU = 51
+    RadiusSplashSuppressDamagesGRU = 153.0
     SuppressDamages = 388.0
     AllowSuppressDamageWhenNoImpact = True
     DisplaySalveAccuracy = False
@@ -8235,7 +8236,7 @@ Ammo_AGM_Kh58U is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1
-    SupplyCost = 28
+    SupplyCost = 100
     CanShootOnPosition = False
     CanShootWhileMoving = True
     NbrProjectilesSimultanes = 1
