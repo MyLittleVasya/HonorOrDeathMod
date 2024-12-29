@@ -1,5 +1,35 @@
 // Ne pas éditer, ce fichier est généré par DepictionVehiclesFileWriter_Specific
 
+
+
+export Gfx_ATteam_Konkurs_RUS is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'ATteam_Konkurs_RUS'
+    Selector = Selector_ATteam_Konkurs_SOV
+    Alternatives = Alternatives_ATteam_Konkurs_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_ATteam_Konkurs_SOV_Weapon1,
+        DepictionOperator_Carriable_ATGM,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_ATGM_9M113_KonkursM ),
+            ]
+            + DepictionAction_CriticalFX_ATGM
+
+    SubDepictions = [
+    ] + HumanSubDepictions_ATteam_Konkurs_RUS
+)
+
 export Gfx_M983_US is TacticVehicleDepictionTemplate
 (
     CoatingName = 'M983_US'

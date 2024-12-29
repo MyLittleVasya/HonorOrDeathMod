@@ -5,6 +5,229 @@ private DivisionRules is TDeckDivisionRules
     DivisionRules = MAP
     [
         (
+            ~/Descriptor_Deck_Division_RUS_31air_multi,
+            TDeckDivisionRule
+            (
+                UnitRuleList =
+                [
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Scout_Spetsnaz_SOV
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_GAZ_66_SOV, $/GFX/Unit/Descriptor_Unit_BTR_80_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_non_arme_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_SOV]
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.6, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_HvyScout_TTsko_SOV
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_GAZ_66_SOV, $/GFX/Unit/Descriptor_Unit_BMP_2_reco_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_non_arme_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_SOV]
+                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.6, 0.34, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Scout_TTsko_SOV
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_UAZ_469_SOV, $/GFX/Unit/Descriptor_Unit_UAZ_469_Reco_SOV]
+                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.6, 0.34, 0.0]
+                    ),
+                    TDeckUniteRule 
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Sprut_SDM1_RU
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
+                    ), //sprut
+                    TDeckUniteRule //nona
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_2S9_Nona_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
+                    ),
+                    TDeckUniteRule //bmd1 reco
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_BMD_1_Reostat_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.6, 0.0]
+                    ),
+                    TDeckUniteRule //bmd2 cmd
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_BMD_2_CMD_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.4, 0.0]
+                    ),
+                    TDeckUniteRule //ATteam_Kornet_RUS
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_ATteam_Kornet_RUS
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_UAZ_469_SOV]
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.34]
+                    ),
+                    TDeckUniteRule //ATteam_Konkurs_RUS
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_ATteam_Konkurs_RUS
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_UAZ_469_SOV]
+                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.34]
+                    ),
+                    TDeckUniteRule //ROSGV_RUS
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_ROSGV_RUS
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_Ural_4320_trans_SOV, $/GFX/Unit/Descriptor_Unit_BMD_2_SOV]
+                        NumberOfUnitInPack = 10
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.68, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //SHTURM_GRUPA_RUS
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_SHTURM_GRUPA_RUS
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_BMD_2_SOV, $/GFX/Unit/Descriptor_Unit_BMP_2D_SOV]
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.68]
+                    ),
+                    TDeckUniteRule //desant grupa
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_DESANT_GRUPA_RUS
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_UAZ_469_SOV, $/GFX/Unit/Descriptor_Unit_BMD_2_SOV, $/GFX/Unit/Descriptor_Unit_BMP_2AG_SOV, $/GFX/Unit/Descriptor_Unit_BMD4_RU, $/GFX/Unit/Descriptor_Unit_Mi_8MTV_SOV]
+                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.4]
+                    ),
+                    TDeckUniteRule //gaz66 supply
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_GAZ_66_supply_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 10
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.68, 0.49, 0.0]
+                    ),
+                    TDeckUniteRule // D30_122mm_VDV_SOV
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Howz_D30_122mm_VDV_SOV
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_GAZ_66B_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_non_arme_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_SOV]
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
+                    ),
+                    TDeckUniteRule //KA52_RU
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_KA52_RU
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //igla to change
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_MANPAD_Igla_VDV_SOV
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_BMD_2_SOV, $/GFX/Unit/Descriptor_Unit_BTR_ZD_Skrezhet_SOV]
+                        NumberOfUnitInPack = 9
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
+                    ),
+                    TDeckUniteRule //vasilek
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_MTLB_Vasilek_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
+                    ),
+                    TDeckUniteRule //su34sead
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_SU34_SEAD_RU
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule //su34lgb
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_SU34_LGB_RU
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //su34at
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_SU34_RU
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //su35s
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_SU35S_RU
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //mi24reco
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_24K_reco_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //mi8mpti reb
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_8MTPI_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.4, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //Mi_24V_AT_SOV
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_24V_AT_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //Mi_26_SOV
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_26_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
+                    ),
+                    TDeckUniteRule //Mi_8K_CMD_SOV
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_8K_CMD_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule //Mi_8TV_s80_SOV
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_8TV_s80_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.4, 0.0]
+                    ),
+                    TDeckUniteRule //Mi_8TZ_SOV
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mi_8TZ_SOV
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.6, 0.34, 0.0]
+                    ),
+                    TDeckUniteRule //Mortier_2B9_Vasilek_SOV
+                    (
+                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Mortier_2B9_Vasilek_SOV
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_UAZ_469_SOV]
+                        NumberOfUnitInPack = 4
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.6, 0.0]
+                    ),
+                ]
+            )
+        ),
+        (
             ~/Descriptor_Deck_Division_UKR_3otb_multi,
             TDeckDivisionRule
             (
@@ -21,8 +244,8 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Osa_9K33M3_SOV
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 4
-                        NumberOfUnitInPackXPMultiplier = [1.0, 0.6, 0.34, 0.0]
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [1.0, 0.6, 0.0, 0.0]
                     ),
                     TDeckUniteRule
                     (
@@ -241,8 +464,8 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Su_27S_SOV
                         AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 2
-                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.4, 0.0]
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
                     ),
                     TDeckUniteRule
                     (
@@ -12535,13 +12758,6 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
-                        UnitDescriptor = $/GFX/Unit/Descriptor_Unit_BM_OPLOT_UA
-                        AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 1
-                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
-                    ),
-                    TDeckUniteRule
-                    (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_T80U_SOV
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 3
@@ -15313,7 +15529,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_DShV_SOV
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_BMD4_RU, $/GFX/Unit/Descriptor_Unit_Mi_2_trans_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_non_arme_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8MTV_SOV]
+                        AvailableTransportList = [$/GFX/Unit/Descriptor_Unit_Mi_2_trans_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_non_arme_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8TV_SOV, $/GFX/Unit/Descriptor_Unit_Mi_8MTV_SOV]
                         NumberOfUnitInPack = 7
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.68, 0.0]
                     ),
@@ -20562,6 +20778,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [1.0, 0.68, 0.49, 0.0]
                     ),
+                    
                     TDeckUniteRule
                     (
                         UnitDescriptor = $/GFX/Unit/Descriptor_Unit_DCA_Javelin_LML_UK

@@ -1,4 +1,81 @@
 
+Ammo_ATGM_KORNET is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{ccc68251-c7a2-4faa-a28c-beb0316d70d8}
+    Name                              = 'atgmbar'
+    TypeCategoryName                  = 'JTOYRAARTS'
+    Caliber                           = '152mm'
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'manual', 'HEAT', 'TANDEM' ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_ATGM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=24)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileATGMGen3' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximaleGRU                 = 2650
+    PorteeMinimaleGRU                 = 353
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 38
+    SuppressDamages                   = 225.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 777
+    MaxAccelerationGRU                = 353
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{93a3457e-faf0-4b77-bf96-c7a0bebe9be5}
+        BaseCriticModifier = 0
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    TempsDeVisee                      = 2.2
+    TempsEntreDeuxSalves              = 10.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 1
+    SupplyCost                        = 60
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 1
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_9k111"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    TandemCharge                      = True
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_ATGM_9M119M_Refleks
+)
+
 Ammo_SAM_PATRIOT_US is TAmmunitionDescriptor
 (
     DescriptorId = GUID:{d6fa0909-d144-z797-b7da-00fac718734z}
@@ -20,7 +97,7 @@ Ammo_SAM_PATRIOT_US is TAmmunitionDescriptor
     TempsEntreDeuxTirs = 3.5
     TempsEntreDeuxFx = 3.5
     PorteeMaximaleTBAGRU = 0
-    PorteeMaximaleHAGRU = 7500
+    PorteeMaximaleHAGRU = 6500
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
     CorrectedShotAimtimeMultiplier = 1.0
@@ -2277,8 +2354,8 @@ Ammo_AA_R37_Vympel is TAmmunitionDescriptor
     ProjectileType = EProjectileType/GuidedMissile
     ImpactHappening = ['MIssileAASPARROW']
     FxPower = EFXPower/UltraLourd
-    TempsEntreDeuxTirs = 2.0
-    TempsEntreDeuxFx = 2.0
+    TempsEntreDeuxTirs = 0.75
+    TempsEntreDeuxFx = 0.75
     PorteeMaximaleHAGRU = 12725
     AngleDispersion = 0.0020001473227855013
     DispersionWithoutSorting = False
@@ -2313,8 +2390,8 @@ Ammo_AA_R37_Vympel is TAmmunitionDescriptor
             (EBaseHitValueModifier/Targeted, 0.0)
         ]
     )
-    TempsDeVisee = 0.0
-    TempsEntreDeuxSalves = 2.0
+    TempsDeVisee = 3.0
+    TempsEntreDeuxSalves = 0.75
     TempsEntreDeuxSalves_Min = -1.0
     TempsEntreDeuxSalves_Max = -1.0
     NbTirParSalves = 1

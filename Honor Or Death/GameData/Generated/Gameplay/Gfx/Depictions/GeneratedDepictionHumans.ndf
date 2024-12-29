@@ -1,5 +1,28 @@
 // Ne pas éditer, ce fichier est généré par DepictionHumanSubDepictionsFileWriter
-
+HumanSubDepictions_ATteam_Konkurs_RUS is 
+[
+    SubDepiction_ATGMServantLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Grunt_RUS
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV_LOW
+    ),
+    SubDepiction_ATGMServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Grunt_RUS
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_ATteam_Konkurs_RUS is 
+[
+    ShowroomSubDepiction_ATGMServantLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Grunt_RUS
+    ),
+    ShowroomSubDepiction_ATGMServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Grunt_RUS
+    ),
+]
 
 HumanSubDepictions_PATRIOT_US is 
 [

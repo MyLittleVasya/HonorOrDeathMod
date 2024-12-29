@@ -137,7 +137,7 @@ export Descriptor_Missile_Bomb_JDAM32 is TEntityDescriptor
             (
                 MaxSpeedGRU        = 500
                 MaxAccelerationGRU = 100
-                AutoGyr            = 0.15490658503988659
+                AutoGyr            = 0.20490658503988659
             )
             UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
             (

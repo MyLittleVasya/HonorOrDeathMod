@@ -24,6 +24,7 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("CommonTexture_MotherCountryFlag_UK",   MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_UK)]),
         ("CommonTexture_MotherCountryFlag_SOV", MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_SOV)]),
         ("CommonTexture_MotherCountryFlag_UKR", MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_UKR)]),
+        ("CommonTexture_MotherCountryFlag_RUS", MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_RUS)]),
         ("CommonTexture_MotherCountryFlag_tfs_SOV", MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_tfs_SOV)]),
         ("CommonTexture_MotherCountryFlag_US",   MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_US)]),
         ("CommonTexture_MotherCountryFlag_CAN",  MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_CAN)]),
@@ -241,6 +242,7 @@ CommonTexture_MotherCountryFlag_LUX is TUIResourceTexture_Common(FileName = "Gam
 CommonTexture_MotherCountryFlag_UK is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/Flags/UK_FLAG.png")
 CommonTexture_MotherCountryFlag_SOV is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/Flags/SOV_FLAG.png")
 CommonTexture_MotherCountryFlag_UKR is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/Flags/UkrFlag.png")
+CommonTexture_MotherCountryFlag_RUS is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/Flags/RusFlag.png")
 CommonTexture_MotherCountryFlag_tfs_SOV is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/Flags/SOV_FLAG_tfs.png")
 CommonTexture_MotherCountryFlag_US is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/Flags/US_FLAG.png")
 CommonTexture_MotherCountryFlag_CAN is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/Flags/CAN_FLAG.png")

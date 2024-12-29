@@ -5,6 +5,7 @@ private DivisionList is TDeckDivisionList
     DivisionList =
     [
         ~/Descriptor_Deck_Division_UKR_3otb_multi,
+        ~/Descriptor_Deck_Division_RUS_31air_multi,
         ~/Descriptor_Deck_Division_US_3rd_Arm_multi,
         ~/Descriptor_Deck_Division_SOV_25_Tank_multi,
         ~/Descriptor_Deck_Division_US_8th_Inf_multi,

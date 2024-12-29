@@ -6,8 +6,11 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
 (
     Textures = MAP
     [
-        
-        ("Texture_Button_Unit_SU34_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/su34.png"))]),
+        ("Texture_Button_Unit_CHALLENGER_2_UK", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/chal2.png"))]),
+        ("Texture_Button_Unit_SU34_AT_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/su34at.png"))]),
+        ("Texture_Button_Unit_SU34_SEAD_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/su34sead.png"))]),
+        ("Texture_Button_Unit_SU35S_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/su35s.png"))]),
+        ("Texture_Button_Unit_SU34_LGB_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/su34.png"))]),
         ("Texture_Button_Unit_KA52_RU", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/ka52.png"))]),
         ("Texture_Button_Unit_PATRIOT_US", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/patriot.png"))]),
         ("Texture_Button_Unit_M983_US", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/m983.png"))]),

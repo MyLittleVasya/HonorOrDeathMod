@@ -5,6 +5,10 @@ export MeshDescriptor_Servant_Grunt_UKR is TResourceMesh
 (
     Mesh = 'GameData:/Assets/3D/Units/UA/grunt/ukrgrunt.fbx'
 )
+export MeshDescriptor_Servant_Grunt_RUS is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/RU/grunts/rugrunt.fbx'
+)
 //------------------------------------------------------------------------------
 //Remorque
 //--------------------------------------------------------------------------------------------------------------------

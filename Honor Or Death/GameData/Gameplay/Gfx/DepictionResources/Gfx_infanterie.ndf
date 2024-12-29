@@ -2,6 +2,7 @@
 export Modele_MalyukSpec   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/UA/weapons/malyuk/vulkan.fbx' )
 export Modele_MK18   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/UA/weapons/mk18/mk18.fbx' )
 export Modele_MGL   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/UA/weapons/mgl/mgl.fbx' )
+export Modele_AK12   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/RU/weapons/ak12/ak12.fbx' )
 
 //------------------------------------------------------------------------------
 // Armes
@@ -195,12 +196,14 @@ SOV_MotoStrelki_1_TTsko_LOW is       'GameData:/Assets/3D/Units/URSS/Infanterie/
 // export Modele_Motostrelki_sov is TResourceMesh( Mesh="GameData:/Assets/3D/Units/URSS/Infanterie/MotoStrelki/MotoStrelki_1.fbx" )
 // export Modele_Motostrelki_sov_LOW is TResourceMesh( Mesh="GameData:/Assets/3D/Units/URSS/Infanterie/MotoStrelki/MotoStrelki_1.fbx" )
 //------------------------------------------------------------------------------
-UKR_Grunt1 is       'GameData:/Assets/3D/Units/UA/grunt/ukrgrunt.fbx'
+RU_GRUNT is 'GameData:/Assets/3D/Units/RU/grunts/rugrunt.fbx'
+UKR_Grunt1 is       'GameData:/Assets/3D/Units/UA/grunt/ukrgrunt.fbx'//
 UKR_Spec1 is       'GameData:/Assets/3D/Units/UA/grunt/ukrspec1.fbx'
 UKR_Spec2 is       'GameData:/Assets/3D/Units/UA/grunt/ukrspec2.fbx'
 export Modele_Grunt1_UKR is TResourceMesh( Mesh= UKR_Grunt1 )
 export Modele_Spec1_UKR is TResourceMesh( Mesh=UKR_Spec1 )
 export Modele_Spec2_UKR is TResourceMesh( Mesh=UKR_Spec2 )
+export Modele_Grunt_RU is TResourceMesh( Mesh=RU_GRUNT )
 
 //MP_Combat_SOV
 export Modele_MP_Combat_SOV is TResourceMesh( Mesh=SOV_MotoStrelki_Officer )

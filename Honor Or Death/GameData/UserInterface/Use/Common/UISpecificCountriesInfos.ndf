@@ -21,6 +21,13 @@ export SpecificCountriesInfos is MAP [
             Country = "UKR"
             NameToken = "ctrUkr"
         )),    
+    ("RUS", TUISpecificCountryInfos
+        (
+            FlagTexture = "CommonTexture_MotherCountryFlag_RUS"
+            PawnExpTexture = "CommonTexture_Etoile_Grande"
+            Country = "RUS"
+            NameToken = "ctrRus"
+        )),  
     ("HON", TUISpecificCountryInfos
         (
             FlagTexture = "CommonTexture_MotherCountryFlag_HON"
@@ -57,6 +64,13 @@ export SpecificCountriesInfos is MAP [
             NameToken = "CtrRFA"
         )),
     //----------------------^ affichées dans la showroom-------------------------- // Voir UIShowRoomResources.ndf, CountriesToShow
+    ("RUS", TUISpecificCountryInfos
+        (
+            FlagTexture = "CommonTexture_MotherCountryFlag_RUS"
+            PawnExpTexture = "CommonTexture_Etoile_Grande"
+            Country = "RUS"
+            NameToken = "ctrRus"
+        )), 
     ("FR", TUISpecificCountryInfos
         (
             FlagTexture = "CommonTexture_MotherCountryFlag_FR"

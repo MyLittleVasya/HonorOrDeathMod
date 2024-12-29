@@ -7,6 +7,7 @@ DeckSerializer is TDeckSerializer
     DivisionIds = MAP
     [   
         (Descriptor_Deck_Division_UKR_3otb_multi, 3222),
+        (Descriptor_Deck_Division_RUS_31air_multi, 3223),
         (Descriptor_Deck_Division_SOV_3FrontUkr_solo, 4),
         (Descriptor_Deck_Division_US_CENTAG_solo, 5),
         (Descriptor_Deck_Division_US_11ACR_solo, 8),
@@ -2038,6 +2039,15 @@ DeckSerializer is TDeckSerializer
         ($/GFX/Unit/Descriptor_Unit_PATRIOT_US, 3027),
         ($/GFX/Unit/Descriptor_Unit_M983_US, 3028),
         ($/GFX/Unit/Descriptor_Unit_SU34_RU, 3029),
+        ($/GFX/Unit/Descriptor_Unit_RUS_REGISTER, 3030),
+        ($/GFX/Unit/Descriptor_Unit_SU34_SEAD_RU, 3031),
+        ($/GFX/Unit/Descriptor_Unit_SU34_LGB_RU, 3032),
+        ($/GFX/Unit/Descriptor_Unit_SU35S_RU, 3033),
+        ($/GFX/Unit/Descriptor_Unit_DESANT_GRUPA_RUS, 3034),
+        ($/GFX/Unit/Descriptor_Unit_SHTURM_GRUPA_RUS, 3035),
+        ($/GFX/Unit/Descriptor_Unit_ROSGV_RUS, 3036),
+        ($/GFX/Unit/Descriptor_Unit_ATteam_Konkurs_RUS, 3037),
+        ($/GFX/Unit/Descriptor_Unit_ATteam_Kornet_RUS, 3038),
         
     ]
 )

@@ -1,0 +1,19 @@
+export Modele_SU35S_RU is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/RU/su35/su35.fbx'
+)
+
+export Modele_SU35S_RU_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/RU/su35/su35.fbx'
+)
+
+export Modele_SU35S_RU_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/RU/su35/su35.fbx'
+)
+
+export Modele_SU35S_RU_train is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/RU/su35/su35_train.fbx'
+)

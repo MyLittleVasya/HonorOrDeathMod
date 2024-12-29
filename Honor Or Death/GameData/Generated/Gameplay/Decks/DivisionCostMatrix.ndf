@@ -1,12 +1,13 @@
 // Ne pas éditer, ce fichier est généré par DivisionCostMatrixFileWriter
 
+
 MatrixCostName_UKR_3otb_multi is MAP
 [
     (EDefaultFactories/Art, [1, 2, 3, 3, 3, 3]),
     (EDefaultFactories/DCA, [1, 1, 2, 3, 3]),
     (EDefaultFactories/Defense, []),
     (EDefaultFactories/Helis, [1, 2, 3, 3,]),
-    (EDefaultFactories/Infantry, [1, 1, 1, 2, 2, 3, 3, 3]),
+    (EDefaultFactories/Infantry, [1, 1, 1, 1, 2, 3, 3, 3]),
     (EDefaultFactories/Logistic, [1, 2, 3, 3, 3]),
     (EDefaultFactories/Planes, [1, 1, 2, 3, 3, 3, 3, 3]),
     (EDefaultFactories/Recons, [1, 1, 2, 2, 3, 3, 3, 3]),

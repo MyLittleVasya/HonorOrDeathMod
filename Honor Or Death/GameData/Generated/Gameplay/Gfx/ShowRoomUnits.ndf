@@ -1,5 +1,353 @@
 // Ne pas éditer, ce fichier est généré par ShowRoomUnitDescriptorFileWriter
 
+
+export Descriptor_ShowRoomUnit_ATteam_Konkurs_RUS is TEntityDescriptor
+(
+    DescriptorId        = GUID:{8fdd0cbc-5eff-4ee9-84c2-81659aa8da8b}
+    ClassNameForDebug   = "ShowRoomUnit_ATteam_Konkurs_RUS"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = $/GFX/Depiction/Gfx_ATteam_Konkurs_RUS_Showroom
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_ATteam_KonkursM_TTsko_SOV
+        ),
+        $/GFX/Weapon/WeaponDescriptor_ATteam_Konkurs_SOV,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Infantry
+            HasServants = True
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_ATteam_Kornet_RUS is TEntityDescriptor
+(
+    DescriptorId        = GUID:{66362300-70ec-432b-98a7-d29e1a130409}
+    ClassNameForDebug   = "ShowRoomUnit_ATteam_Kornet_RUS"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = $/GFX/Depiction/Gfx_ATteam_Konkurs_RUS_Showroom
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_ATteam_KonkursM_TTsko_SOV
+        ),
+        $/GFX/Weapon/WeaponDescriptor_ATteam_Konkurs_SOV,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Infantry
+            HasServants = True
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_ROSGV_RUS is TEntityDescriptor
+(
+    DescriptorId        = GUID:{88e32439-3328-439c-b23f-cdc44fe33010}
+    ClassNameForDebug   = "ShowRoomUnit_ROSGV_RUS"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = $/GFX/Depiction/InfantryDepictionSquadShowroom
+            ReferenceMesh        = $/GFX/DepictionResources/Rien
+        ),
+        $/GFX/Weapon/WeaponDescriptor_ROSGV_RUS,
+        TInfantrySquadModuleDescriptor
+        (
+            NbSoldatInGroupeCombat = 10
+            SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+            InfantryMimeticName = 'ROSGV_RUS'
+            WeaponUnitFXKey     = 'ROSGV_RUS'
+            MimeticDescriptor   = Descriptor_Unit_MimeticUnit
+            (
+                DescriptorId = GUID:{fef718c4-d6e9-457d-ae41-f2e8d9910203}
+                MimeticName = 'ROSGV_RUS'
+            )
+        ),
+        ~/LineInfantrySquadSlotPositionsModuleDescriptor,
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[( 0, [0] ), ( 1, [0] ), ( 2, [0] ), ( 3, [0] ), ( 4, [0] ), ( 5, [1] ), ( 6, [1] ), ( 7, [1] ), ( 8, [2] ), ( 9, [1, 3] ),]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Infantry
+            HasServants = False
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_SHTURM_GRUPA_RUS is TEntityDescriptor
+(
+    DescriptorId        = GUID:{33328613-5ecb-4ef9-a43a-3b22b428a66c}
+    ClassNameForDebug   = "ShowRoomUnit_SHTURM_GRUPA_RUS"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Engineer
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = $/GFX/Depiction/InfantryDepictionSquadShowroom
+            ReferenceMesh        = $/GFX/DepictionResources/Rien
+        ),
+        $/GFX/Weapon/WeaponDescriptor_SHTURM_GRUPA_RUS,
+        TInfantrySquadModuleDescriptor
+        (
+            NbSoldatInGroupeCombat = 8
+            SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+            InfantryMimeticName = 'SHTURM_GRUPA_RUS'
+            WeaponUnitFXKey     = 'SHTURM_GRUPA_RUS'
+            MimeticDescriptor   = Descriptor_Unit_MimeticUnit
+            (
+                DescriptorId = GUID:{7e0a7026-978d-441e-be1a-43a2fe6ddcdd}
+                MimeticName = 'SHTURM_GRUPA_RUS'
+            )
+        ),
+        ~/ColumnInfantrySquadSlotPositionsModuleDescriptor,
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[( 0, [0, 1] ), ( 1, [0, 2] ), ( 2, [0, 2] ), ( 3, [0, 2] ), ( 4, [0, 3] ), ( 5, [0, 3] ), ( 6, [0, 3] ), ( 7, [0] ),]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_SF_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Infantry
+            HasServants = False
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_DESANT_GRUPA_RUS is TEntityDescriptor
+(
+    DescriptorId        = GUID:{41c07c93-0504-4548-b5be-dd263f2a77e8}
+    ClassNameForDebug   = "ShowRoomUnit_DESANT_GRUPA_RUS"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = $/GFX/Depiction/InfantryDepictionSquadShowroom
+            ReferenceMesh        = $/GFX/DepictionResources/Rien
+        ),
+        $/GFX/Weapon/WeaponDescriptor_DESANT_GRUPA_RUS,
+        TInfantrySquadModuleDescriptor
+        (
+            NbSoldatInGroupeCombat = 9
+            SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+            InfantryMimeticName = 'DESANT_GRUPA_RUS'
+            WeaponUnitFXKey     = 'DESANT_GRUPA_RUS'
+            MimeticDescriptor   = Descriptor_Unit_MimeticUnit
+            (
+                DescriptorId = GUID:{5d2be6eb-0c1b-40b5-a146-613f96370480}
+                MimeticName = 'DESANT_GRUPA_RUS'
+            )
+        ),
+        ~/LineInfantrySquadSlotPositionsModuleDescriptor,
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[( 0, [1] ), ( 1, [2] ), ( 2, [0, 3] ), ( 3, [0, 3] ), ( 4, [0, 3] ), ( 5, [0, 3] ), ( 6, [0, 3] ), ( 7, [0] ), ( 8, [0] ),]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Infantry
+            HasServants = False
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_SU35S_RU is TEntityDescriptor
+(
+    DescriptorId        = GUID:{949a4f60-4c68-4362-8a3f-c4784db0415b}
+    ClassNameForDebug   = "ShowRoomUnit_SU35S_RU"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_AirSup
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = $/GFX/Depiction/Gfx_SU35S_RU_Showroom
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_SU35S_RU
+        ),
+        $/GFX/Weapon/WeaponDescriptor_SU35S_RU,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_avion
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Airplane
+            HasServants = False
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_SU34_LGB_RU is TEntityDescriptor
+(
+    DescriptorId        = GUID:{b1443517-c1e6-490f-8804-1ed4898421f2}
+    ClassNameForDebug   = "ShowRoomUnit_SU34_LGB_RU"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = $/GFX/Depiction/Gfx_SU34_LGB_RU_Showroom
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_SU34_RU
+        ),
+        $/GFX/Weapon/WeaponDescriptor_SU34_LGB_RU,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_avion
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Airplane
+            HasServants = False
+        ),
+    ]
+)
+
+export Descriptor_ShowRoomUnit_SU34_SEAD_RU is TEntityDescriptor
+(
+    DescriptorId        = GUID:{4864b320-51df-4d94-ba66-965c69271ca1}
+    ClassNameForDebug   = "ShowRoomUnit_SU34_SEAD_RU"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = $/GFX/Depiction/Gfx_SU34_SEAD_RU_Showroom
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_SU34_RU
+        ),
+        $/GFX/Weapon/WeaponDescriptor_SU34_SEAD_RU,
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_avion
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Airplane
+            HasServants = False
+        ),
+    ]
+)
+
 export Descriptor_ShowRoomUnit_SU34_RU is TEntityDescriptor
 (
     DescriptorId        = GUID:{05a44a46-ef73-4c88-8c4c-367911e16150}
@@ -8,7 +356,7 @@ export Descriptor_ShowRoomUnit_SU34_RU is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Coalition                      = ECoalition/Axis
-            MotherCountry                    = 'SOV'
+            MotherCountry                    = 'RUS'
             AcknowUnitType                   = ~/TAcknowUnitType_AirSup
             TypeUnitFormation                = 'None'
         ),
@@ -117,7 +465,7 @@ export Descriptor_ShowRoomUnit_Sprut_SDM1_RU is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Coalition                        = ECoalition/Axis
-            MotherCountry                    = 'SOV'
+            MotherCountry                    = 'RUS'
             AcknowUnitType                   = ~/TAcknowUnitType_Tank
             TypeUnitFormation                = 'Char'
         ),
@@ -154,7 +502,7 @@ export Descriptor_ShowRoomUnit_T90M_RU is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Coalition                        = ECoalition/Axis
-            MotherCountry                    = 'SOV'
+            MotherCountry                    = 'RUS'
             AcknowUnitType                   = ~/TAcknowUnitType_Tank
             TypeUnitFormation                = 'Char'
         ),
@@ -191,7 +539,7 @@ export Descriptor_ShowRoomUnit_KA52_RU is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Coalition                        = ECoalition/Axis
-            MotherCountry                    = 'SOV'
+            MotherCountry                    = 'RUS'
             AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
             TypeUnitFormation                = 'None'
         ),
@@ -229,7 +577,7 @@ export Descriptor_ShowRoomUnit_BMD4_RU is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Coalition                        = ECoalition/Axis
-            MotherCountry                    = 'SOV'
+            MotherCountry                    = 'RUS'
             AcknowUnitType                   = ~/TAcknowUnitType_Tank
             TypeUnitFormation                = 'Char'
         ),
@@ -294,7 +642,6 @@ export Descriptor_ShowRoomUnit_M270_ATACMS_cluster_US is TEntityDescriptor
         ),
     ]
 )
-
 
 export Descriptor_ShowRoomUnit_NOVATOR_CMD_UKR is TEntityDescriptor
 (

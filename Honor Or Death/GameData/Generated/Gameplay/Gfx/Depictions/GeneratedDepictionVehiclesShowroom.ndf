@@ -1,6 +1,13 @@
 // Ne pas éditer, ce fichier est généré par DepictionVehiclesFileWriter_Specific_Showroom
 
 
+export Gfx_ATteam_Konkurs_RUS_Showroom is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_ATteam_KonkursM_TTsko_SOV
+    Selector = Selector_ATteam_KonkursM_TTsko_SOV
+    SubDepictions = HumanSubDepictionsShowroom_ATteam_Konkurs_RUS
+)
+
 export Gfx_M983_US_Showroom is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_M983_US

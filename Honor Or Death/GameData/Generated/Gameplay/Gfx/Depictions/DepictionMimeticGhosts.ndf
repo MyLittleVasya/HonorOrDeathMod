@@ -5,7 +5,9 @@
 
 DepictionMimeticGhosts is MAP[
   
+
   ( 'SU34_RU', GhostDepiction_SU34_RU ),
+  ( 'SU35S_RU', GhostDepiction_SU35S_RU ),
   ( 'RAFALE_FR', GhostDepiction_RAFALE_FR ),
   ( 'M983_US', GhostDepiction_M983_US ),
   ( 'PATRIOT_US', GhostDepiction_PATRIOT_US ),

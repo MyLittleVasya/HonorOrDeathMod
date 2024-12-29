@@ -7067,3 +7067,39 @@ Descriptor_Deck_Pack_SU34_RU is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_SU34_RU
 )
+Descriptor_Deck_Pack_RUS_REGISTER is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_RUS_REGISTER
+)
+Descriptor_Deck_Pack_SU34_SEAD_RU is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_SU34_SEAD_RU
+)
+Descriptor_Deck_Pack_SU34_LGB_RU is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_SU34_LGB_RU
+)
+Descriptor_Deck_Pack_SU35S_RU is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_SU35S_RU
+)
+Descriptor_Deck_Pack_DESANT_GRUPA_RUS is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_DESANT_GRUPA_RUS
+)
+Descriptor_Deck_Pack_SHTURM_GRUPA_RUS is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_SHTURM_GRUPA_RUS
+)
+Descriptor_Deck_Pack_ROSGV_RUS is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_ROSGV_RUS
+)
+Descriptor_Deck_Pack_ATteam_Konkurs_RUS is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_ATteam_Konkurs_RUS
+)
+Descriptor_Deck_Pack_ATteam_Kornet_RUS is DeckPackDescriptor
+(
+    Unit = $/GFX/Unit/Descriptor_Unit_ATteam_Kornet_RUS
+)

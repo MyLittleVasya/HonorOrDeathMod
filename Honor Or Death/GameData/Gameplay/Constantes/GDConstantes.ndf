@@ -323,7 +323,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     ShootingAdjustmentAngleMax = 0.4 //20°
     SplashSurTirRate = true // Est-ce que les tirs ratés font des dégâts de splash ?
     SplashRatioDamage = [0.35, 0.35, 0.25] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
-    SplashRatioDistance = [0.35, 0.35, 0.30] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
+    SplashRatioDistance = [0.55, 0.55, 0.50] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
 
     TagAllowedForMissileRoE = "AllowedForMissileRoE"
     TagNonRadarTargetable = "Non_Radar_Targetable"

@@ -14,9 +14,13 @@ ChatTextFormatScript is TTextFormatScriptRTTI
             "FR",
             TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_FR")
         ),
-         (
+        (
             "UKR",
             TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_UKR")
+        ),
+        (
+            "RUS",
+            TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_RUS")
         ),
         (
             "FRA",

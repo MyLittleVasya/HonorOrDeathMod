@@ -51,9 +51,9 @@ ShowRoomResource is TUISpecificShowRoomResources
 
     DummyComponentForBlur = ~/DummyComponentForBlur
 
-    CountriesToShow = ["SOV","US","UK","FR","CAN","POL","DDR","RFA","NL","BEL","LUX","TCH","ESP", "UKR"]
+    CountriesToShow = ["SOV","US","UK","FR","CAN","POL","DDR","RFA","NL","BEL","LUX","TCH","ESP", "UKR", "RUS"]
     AllianceToCountriesToShow = MAP [
-        (ECoalition/Axis, ["SOV","DDR","POL","TCH"]),
+        (ECoalition/Axis, ["SOV","DDR","POL","TCH", "RUS"]),
         (ECoalition/Allied, ["US","UK","FR","RFA","CAN","NL","BEL","LUX","ESP", "UKR"])
     ]
 

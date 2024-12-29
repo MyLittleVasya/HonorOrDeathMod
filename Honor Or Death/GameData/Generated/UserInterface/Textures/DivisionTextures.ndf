@@ -11,6 +11,10 @@ Texture_Division_Emblem_UA_3otb is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/3otb.png"
 )
+Texture_Division_Emblem_31air is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/31air.png"
+)
 Texture_Division_Emblem_FR_11e_Para is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_11e_Para.png"
@@ -340,6 +344,7 @@ DivisionAdditionalTextureBank is TBUCKToolAdditionalTextureBank
     [
         ("Texture_Division_Emblem_BEL_16e_Meca", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_BEL_16e_Meca)]),
         ("Texture_Division_Emblem_UA_3otb", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_UA_3otb)]),
+        ("Texture_Division_Emblem_31air", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_31air)]),
         ("Texture_Division_Emblem_FR_11e_Para", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_FR_11e_Para)]),
         ("Texture_Division_Emblem_FR_152eID", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_FR_152eID)]),
         ("Texture_Division_Emblem_FR_5eDB", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_FR_5eDB)]),

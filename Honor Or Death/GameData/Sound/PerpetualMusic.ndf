@@ -2,6 +2,7 @@
 
 Playlist_Outgame is
 [
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sounds/PerpetualMusic/sdsvit_pers.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sounds/PerpetualMusic/Aviator.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sounds/PerpetualMusic/Brooding-Thoughts.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sounds/PerpetualMusic/Canyon.wav" ),
@@ -38,6 +39,7 @@ Playlist_Outgame is
 
 Playlist_Ingame is
 [
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sounds/PerpetualMusic/sdsvit_pers.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sounds/PerpetualMusic/Aviator.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sounds/PerpetualMusic/Canyon.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sounds/PerpetualMusic/Born-A-Hero.wav" ),

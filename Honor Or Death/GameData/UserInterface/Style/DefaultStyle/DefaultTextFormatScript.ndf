@@ -2253,6 +2253,10 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_UKR")
         ),
         (
+            "RUS",
+            TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_RUS")
+        ),
+        (
             "RFA",
             TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_RFA")
         ),

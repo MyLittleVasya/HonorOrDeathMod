@@ -1,5 +1,54 @@
 // Ne pas éditer, ce fichier est généré par DepictionAerialUnitsFileWriter_Specific_Showroom
 
+
+export Gfx_SU35S_RU_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_SU35S_RU
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_SU35S_RU,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_SU35S_RU_train
+        ),
+    ]
+)
+
+export Gfx_SU34_LGB_RU_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_SU34_LGB_RU,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU_train
+        ),
+    ]
+)
+
+export Gfx_SU34_SEAD_RU_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_SU34_SEAD_RU,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU_train
+        ),
+    ]
+)
+
 export Gfx_SU34_RU_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_SU34_RU

@@ -1,5 +1,197 @@
 // Ne pas éditer, ce fichier est généré par DepictionInfantryFileWriter_Specific
 
+// *****************************[ ROSGV_RUS ]*********************************
+export Gfx_ROSGV_RUS is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET
+)
+AllWeaponAlternatives_ROSGV_RUS is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_AKs74U ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG7V ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPG7V ),
+]
+AllWeaponSubDepiction_ROSGV_RUS is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_ROSGV_RUS
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_AK_74"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_PM_AKSU_74"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_RPK_74_5_56mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG7VL"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_ROSGV_RUS is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_ROSGV_RUS
+)
+TacticDepiction_ROSGV_RUS_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_BTR_SOV_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Grunt_RU ),
+]
+TacticDepiction_ROSGV_RUS_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_03_05
+  Alternatives = TacticDepiction_ROSGV_RUS_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_ROSGV_RUS, AllWeaponSubDepictionBackpack_ROSGV_RUS]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('smg', 'MeshAlternative_3'), ('bazooka', 'MeshAlternative_4')] )]
+)
+TacticDepiction_ROSGV_RUS_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_03_05
+  Alternatives = TacticDepiction_ROSGV_RUS_Alternatives
+)
+
+// *****************************[ SHTURM_GRUPA_RUS ]*********************************
+export Gfx_SHTURM_GRUPA_RUS is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET
+)
+AllWeaponAlternatives_SHTURM_GRUPA_RUS is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK12 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPO_A_Shmel ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG27 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPO_A_Shmel ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPG27 ),
+]
+AllWeaponSubDepiction_SHTURM_GRUPA_RUS is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_SHTURM_GRUPA_RUS
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_AK_74"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_RPK_74_5_56mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPO_RYS"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG27_105mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_SHTURM_GRUPA_RUS is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_SHTURM_GRUPA_RUS
+)
+TacticDepiction_SHTURM_GRUPA_RUS_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_BTR_SOV_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Grunt_RU ),
+]
+TacticDepiction_SHTURM_GRUPA_RUS_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_03_05
+  Alternatives = TacticDepiction_SHTURM_GRUPA_RUS_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_SHTURM_GRUPA_RUS, AllWeaponSubDepictionBackpack_SHTURM_GRUPA_RUS]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('smg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3'), ('bazooka', 'MeshAlternative_4') ] )]
+)
+TacticDepiction_SHTURM_GRUPA_RUS_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_03_05
+  Alternatives = TacticDepiction_SHTURM_GRUPA_RUS_Alternatives
+)
+
+// *****************************[ DESANT_GRUPA_RUS ]*********************************
+export Gfx_DESANT_GRUPA_RUS is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET
+)
+AllWeaponAlternatives_DESANT_GRUPA_RUS is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK12 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_PKM ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG27 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPG27 ),
+]
+AllWeaponSubDepiction_DESANT_GRUPA_RUS is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_DESANT_GRUPA_RUS
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_AK_74"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_RPK_74_5_56mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_PKM_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG27_105mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_DESANT_GRUPA_RUS is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_DESANT_GRUPA_RUS
+)
+TacticDepiction_DESANT_GRUPA_RUS_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_BTR_SOV_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Grunt_RU ),
+]
+TacticDepiction_DESANT_GRUPA_RUS_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_03_05
+  Alternatives = TacticDepiction_DESANT_GRUPA_RUS_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_DESANT_GRUPA_RUS, AllWeaponSubDepictionBackpack_DESANT_GRUPA_RUS]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('smg', 'MeshAlternative_2'), ('smg', 'MeshAlternative_3'), ('bazooka', 'MeshAlternative_4') ] )]
+)
+TacticDepiction_DESANT_GRUPA_RUS_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_03_05
+  Alternatives = TacticDepiction_DESANT_GRUPA_RUS_Alternatives
+)
 
 // *****************************[ ARM_RECO_UKR ]*********************************
 export Gfx_ARM_RECO_UKR is TemplateInfantryDepictionSquad
@@ -23723,6 +23915,11 @@ InfantrySelectorTactic_10_10 is TemplateInfantrySelectorTactic( Surrogates = Tac
 
 InfantryMimetic is 
 MAP[
+
+    
+    ( "ROSGV_RUS", TacticDepiction_ROSGV_RUS_Soldier ),
+    ( "DESANT_GRUPA_RUS", TacticDepiction_DESANT_GRUPA_RUS_Soldier ),
+    ( "SHTURM_GRUPA_RUS", TacticDepiction_SHTURM_GRUPA_RUS_Soldier ),
     ( "ARM_RECO_UKR", TacticDepiction_ARM_RECO_UKR_Soldier ),
     ( "GUR_UKR", TacticDepiction_GUR_UKR_Soldier ),
     ( "Javelin_Squad_UKR", TacticDepiction_Javelin_Squad_UKR_Soldier ), 
@@ -24152,6 +24349,11 @@ MAP[
 
 InfantryMimeticGhost is 
 MAP[
+  
+  
+    ( "ROSGV_RUS", TacticDepiction_ROSGV_RUS_Ghost ),
+    ( "SHTURM_GRUPA_RUS", TacticDepiction_SHTURM_GRUPA_RUS_Ghost ),
+    ( "DESANT_GRUPA_RUS", TacticDepiction_DESANT_GRUPA_RUS_Ghost ),
     ( "ARM_RECO_UKR", TacticDepiction_ARM_RECO_UKR_Ghost ),
     ( "GUR_UKR", TacticDepiction_GUR_UKR_Ghost ),
     ( "Javelin_Squad_UKR", TacticDepiction_Javelin_Squad_UKR_Ghost ), 
@@ -24584,6 +24786,10 @@ unnamed TTransportedInfantryCatalogEntries
     Catalog = $/DepictionCore/TransportedInfantryCatalog
     Entries = 
     [
+        
+        TTransportedInfantryEntry( Count = 10 Identifier = "ROSGV_RUS" Meshes = [ $/GFX/DepictionResources/Modele_Grunt_RU ] UniqueCount = 0 ),
+        TTransportedInfantryEntry( Count = 8 Identifier = "SHTURM_GRUPA_RUS" Meshes = [ $/GFX/DepictionResources/Modele_Grunt_RU ] UniqueCount = 0 ),
+        TTransportedInfantryEntry( Count = 9 Identifier = "DESANT_GRUPA_RUS" Meshes = [ $/GFX/DepictionResources/Modele_Grunt_RU ] UniqueCount = 0 ),
         TTransportedInfantryEntry( Count = 6 Identifier = "ARM_RECO_UKR" Meshes = [ $/GFX/DepictionResources/Modele_Grunt1_UKR ] UniqueCount = 0 ),
         TTransportedInfantryEntry( Count = 8 Identifier = "GUR_UKR" Meshes = [ $/GFX/DepictionResources/Modele_Grunt1_UKR ] UniqueCount = 0 ),
         TTransportedInfantryEntry( Count = 4 Identifier = "Javelin_Squad_UKR" Meshes = [ $/GFX/DepictionResources/Modele_Grunt1_UKR ] UniqueCount = 0 ),
@@ -25014,6 +25220,10 @@ unnamed TTransportedInfantryCatalogEntries
 
 
 TransportedInfantryAlternativesCount is MAP[
+  
+  ('ROSGV_RUS', (3,5)),
+  ('SHTURM_GRUPA_RUS', (3,5)),
+  ('DESANT_GRUPA_RUS', (3,5)),
   ('ARM_RECO_UKR', (0,10)),
   ('GUR_UKR', (0,4)),
   ('Javelin_Squad_UKR', (3,5)),
@@ -25351,6 +25561,22 @@ TransportedInfantryAlternativesCount is MAP[
 ]
 
 TransportedInfantryAlternatives is [
+  
+  TDepictionDescriptor( SelectorId = ['ROSGV_RUS', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['ROSGV_RUS', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['ROSGV_RUS', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['ROSGV_RUS', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['ROSGV_RUS', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['SHTURM_GRUPA_RUS', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['SHTURM_GRUPA_RUS', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['SHTURM_GRUPA_RUS', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['SHTURM_GRUPA_RUS', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['SHTURM_GRUPA_RUS', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['DESANT_GRUPA_RUS', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['DESANT_GRUPA_RUS', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['DESANT_GRUPA_RUS', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['DESANT_GRUPA_RUS', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
+  TDepictionDescriptor( SelectorId = ['DESANT_GRUPA_RUS', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt_RU ),
   TDepictionDescriptor( SelectorId = ['ARM_RECO_UKR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Grunt1_UKR ),
   TDepictionDescriptor( SelectorId = ['ARM_RECO_UKR', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Spec2_UKR ),
   TDepictionDescriptor( SelectorId = ['ARM_RECO_UKR', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Spec1_UKR ),
